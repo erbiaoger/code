@@ -1,0 +1,58 @@
+import struct
+import numpy as np
+import matplotlib.pyplot as plt
+import argparse
+
+
+def getargs():
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('--filename', nargs='?', default=None,
+                       help="filename")
+
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    
+    args = getargs()
+    Filename = args.filename
+    filename_read = Filename + '.dat'
+    filename_save = Filename + '.txt'
+
+    nx = 2380
+    nz = 700
+    
+    numpy_data = np.empty([nx,nz], dtype = float)
+    
+    with open(filename_read, 'rb') as f:
+        for i in range(nx):
+            for j in range(nz):
+                data = f.read(4)
+                data_float = struct.unpack("f", data)[0]
+                numpy_data[i][j] = data_float
+    
+    np.savetxt(filename_save, numpy_data)
+    
+    #pic[nx][nz] = 0
+    #with open("2.dat", 'wb') as f:
+    #    for i in range(nx):
+    #        for j in range(nz):
+    #            f.write(str(pic[i][j]))
+    
+    
+    #def xshow(filename, nx, nz):
+    #    f = open(filename, "rb")
+    #    pic = np.zeros((nx, nz))
+    #    for i in range(nx):
+    #        for j in range(nz):
+    #            data = f.read(4)
+    #            elem = struct.unpack("f", data)[0]
+    #            pic[i][j] = elem
+    #    f.close()
+    #    return pic
+    
+    #xshow(filename, nx, nz)
+    #im = w.image_binary(pic)
+    #plt.imsave('output.tiff', im, format='tiff', cmap=plt.cm.gray)

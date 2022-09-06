@@ -1,0 +1,8 @@
+.rwxrwxr-x 17k erbiaoger 17 7月  18:27 a
+.rw-rw-r-- 183 erbiaoger 17 7月  18:27 a.cpp
+.rw-rw-r-- 334 erbiaoger 18 7月  20:20 a.txt
+.rwxrwxr-x 17k erbiaoger 17 7月  18:07 arrayone
+.rw-rw-r-- 633 erbiaoger 17 7月  18:07 arrayone.cpp
+.rw-rw-r--   0 erbiaoger 18 7月  20:20 b.txt
+.rwxrwxr-x 17k erbiaoger 17 7月  18:43 string
+.rw-rw-r-- 437 erbiaoger 17 7月  18:44 string.cpp
