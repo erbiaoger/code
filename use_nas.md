@@ -81,3 +81,78 @@ Data: 2022年11月9日下午7:39:38
 - 终端如下
 
  ![image-20221109下午90540647](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092105673.png)
+
+Data: 2022年11月10日上午7:54:16
+
+## 自动同步功能
+
+- mac, ubuntu, windows 都需下载`Synology Drive Client` 网址：`https://www.synology.cn/zh-cn/support/download/DS920+?version=7.1#utilities`
+
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100755159.png)
+
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100757227.png)
+
+### windows 
+
+- 可仿照`ubuntu`和`Mac`
+
+要是有人上传操作步骤, 就更好了
+
+### ubuntu
+
+- 安装`Synology Drive Client`
+
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100813172.png)
+
+- 打开
+
+  ![截图 2022-11-10 08-16-13](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100821430.png)
+
+  ![截图 2022-11-10 08-16-54](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822172.png)
+
+- 登陆 Synology NAS 处还可填 `192.168.3.26` 域名应该
+
+  ![截图 2022-11-10 08-17-32](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822657.png)
+
+- 选择同步或备份任务
+
+  ![截图 2022-11-10 08-17-41](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822788.png)
+
+  ![截图 2022-11-10 08-17-59](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823618.png)
+
+- 设置同步文件夹，NAS端和PC端
+
+  ![截图 2022-11-10 08-19-02](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823793.png)
+
+- 选择备份模式
+
+  ![截图 2022-11-10 08-19-11](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823819.png)
+
+- 搞定
+
+  ![截图 2022-11-10 08-19-31](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823807.png)
+
+### Mac
+
+- 双击运行
+  
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100759898.png)
+
+- 一路下一步
+
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100802543.png)
+
+- 点击`同步任务`或`备份任务`, 点击创建 (由于我已经登陆过，步骤可能稍有不同)
+
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100807306.png)
+
+- 设置同步文件夹，NAS端和PC端
+  
+  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100810352.png)
+
+
+
+
+
+
+
