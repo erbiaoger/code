@@ -1,6 +1,6 @@
-# use_nas
-
 [TOC]
+
+# use_nas
 
 Data: 2022年11月9日下午7:39:38
 
@@ -153,6 +153,7 @@ Data: 2022年11月10日上午7:54:16
 - 设置同步文件夹，NAS端和PC端
   
   ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100810352.png)
+
 
 
 
