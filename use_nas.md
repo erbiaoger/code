@@ -1,6 +1,11 @@
-[TOC]
+
+# use_nas
+![my workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![GitHub file size in bytes](https://img.shields.io/github/size/erbiaoger/code/use_nas.md?color=green&label=use_nas%20file%20size)
+
+# Table of contents
+
 <!--ts-->
-* [use_nas](#use_nas)
    * [说明](#说明)
    * [使用](#使用)
       * [windows](#windows)
@@ -12,10 +17,9 @@
       * [Mac](#mac-1)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: erbiaoger, at: 2022年11月10日 星期四 15时30分41秒 CST -->
+<!-- Added by: erbiaoger, at: 2022年11月10日 星期四 15时36分23秒 CST -->
 
 <!--te-->
-# use_nas
 
 Data: 2022年11月9日下午7:39:38
 
