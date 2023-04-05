@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mytools
+Version: 0.1
+Summary: some tools made by erbiaoger
+Home-page: https://github.com/erbiaoger/code/mytools
+Author: erbiaoger
+Author-email: erbiaoger@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
