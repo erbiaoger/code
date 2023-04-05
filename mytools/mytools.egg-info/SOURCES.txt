@@ -1,5 +1,8 @@
+LICENSE
 README.md
 setup.py
+mytools/__init__.py
+mytools/__main__.py
 mytools/mytools.py
 mytools.egg-info/PKG-INFO
 mytools.egg-info/SOURCES.txt

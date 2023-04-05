@@ -14,7 +14,8 @@ class Timer:
         
     def stop(self):
         self.times.append(time.time() - self.tik)
-        return self.times[-1]
+        self.print()
+        #return self.times[-1]
     
     def avg(self):
         return sum(self.times) / len(self.times)
@@ -26,4 +27,4 @@ class Timer:
         return np.array(self.times).cumsum().tolist()
     
     def print(self):
-        print(f'Done! {timer.stop(): .2f} sec')
+        print(f'Done! {self.times[-1]: .2f} sec')
