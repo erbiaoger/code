@@ -1,0 +1,30 @@
+Host mac
+	HostName 192.168.124.9
+	User erbiaoger
+	Port 22
+
+Host user
+	#HostName 222.27.79.19
+	HostName 192.168.3.10
+	User user
+	Port 22
+
+Host zhangzhiyu
+	#HostName 222.27.79.19
+	HostName 192.168.3.10
+	User zhangzhiyu
+	Port 22
+
+Host ubuntu
+	HostName 192.168.3.32
+	User erbiaoger
+	Port 22
+
+
+
+UserKnownHostsFile ~/.ssh/known_hosts
+
+# 1 生成密钥和公钥
+# $ ssh-keygen -t rsa
+# 上传公钥
+# $ ssh-copy-id -i ~/.ssh/id_rsa.pub erbiaoger

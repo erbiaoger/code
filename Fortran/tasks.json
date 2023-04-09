@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Fortran",
+            "type": "shell",
+            "command": "gfortran",
+            "args": [
+                "-o",
+                "${workspaceFolder}/<executable_name>",
+                "${workspaceFolder}/*.f90"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
