@@ -22,5 +22,5 @@ Some codes for daily use
 <!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=erbiaoger&repo=sdcc&show_icons=true)](https://github.com/erbiaoger/sdcc) -->
 <!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=erbiaoger&repo=voice&show_icons=true)](https://github.com/erbiaoger/voice) -->
 
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erbiaoger&layout=compact&langs_count=8&show_icons=true&hide_border=true&layout=compact) -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erbiaoger&layout=compact&langs_count=8&show_icons=true&hide_border=true&layout=compact)
 
