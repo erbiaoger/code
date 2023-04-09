@@ -7,9 +7,6 @@ export ALL_PROXY="http://$host_ip:7890"
 # export DISPLAY=:0.0
 
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -112,12 +109,16 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
-#
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-# export PATH="~/anaconda3/bin:$PATH"  # commented out by conda initialize
-# export PATH="~/anaconda3/bin:$PATH"  # commented out by conda initialize
 
+eval "$(fasd --init auto)"
+
+# 网络配置
+DEFAULT_USER="user"
+ZSH_DISABLE_COMPFIX="true"
+export all_proxy=socks5://127.0.0.1:7890
+host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+export ALL_PROXY="http://$host_ip:7890"
+# export DISPLAY=:0.0
 
 
 # fzf
@@ -147,14 +148,8 @@ fe() {
   IFS=$'\n' files=($(fzf-tmux --query="$1" --multi --select-1 --exit-0))
   [[ -n "$files" ]] && ${EDITOR:-vim} "${files[@]}"
 }
-# autojump
-# [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-# exa
-# export PATH=$PATH:~/.local/share/exa/bin/
-# su
-export CWPROOT=/Users/erbiaoger/MyProjects/Seisflows/su
-export PATH=$PATH:$CWPROOT/bin
-# specfem2d
+
+
 export PATH=$PATH:/home/erbiaoger/Seisflows/specfem2d/bin
 # matlab
 export PATH=/home/erbiaoger/.local/share/matlab/bin:$PATH
@@ -162,9 +157,15 @@ alias matlab="/home/erbiaoger/.local/share/matlab/bin/matlab"
 # ranger
 export RANGER_LOAD_DEFAULT_RC=FALSE
 alias nav='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
-
+# fd2dmpi
+export PATH=~/MyProjects/SWIT-1.0/bin:$PATH
+export PYTHONPATH=~/MyProjects/SWIT-1.0/toolbox
 
 # 映射 
+alias nas='ssh -p 22 CSIM@192.168.3.26'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 alias od='cd /Users/erbiaoger/Library/Group\ Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive.noindex/OneDrive/Document/Obsidian'
 alias toc='gh-md-toc --insert'
 alias sshuser='ssh -NfL 1111:localhost:3333 user@192.168.3.10'
@@ -172,14 +173,11 @@ alias sshzhangzhiyu='ssh -NfL 2222:localhost:2222 zhangzhiyu@192.168.3.10'
 alias md='mkdir -p'
 alias m='matlab -nodesktop -nosplash -nodisplay -r'
 alias p='python'
-alias python='python3'
-alias sz='source ~/.zshrc'
-alias vz='vim ~/.zshrc'
-alias la='exa -lm --icons --time-style=long-iso --no-permissions --no-user -a'
-alias ls='exa -lm --icons --time-style=long-iso --no-permissions --no-user'
-alias lf='exa -lm --icons --time-style=long-iso --no-permissions --no-user | fzf'
-alias lt='exa -lm --icons --time-style=long-iso --no-permissions --no-user --changed'
-alias tr='exa -lm --icons --time-style=long-iso --no-permissions --no-user --tree --level=2'
+alias ls='exa -lm --icons --time-style=iso --no-permissions --no-user'
+alias ld='exa -lm --icons --time-style=iso --no-permissions --no-user -D'
+alias ll='exa -lm --icons --time-style=iso --no-permissions --no-user | grep "^-"'
+alias l='exa -lm --icons --time-style=iso --no-permissions --no-user -s type'
+alias lt='exa -lm --icons --time-style=iso --no-permissions --no-user --tree --level=2'
 alias tn='tmux new -s'
 alias tl='tmux ls'
 alias ta='tmux attach -t'
@@ -200,28 +198,56 @@ alias mtr='matlab -nodesktop -nosplash -nodisplay -r'
 alias mp='matlab -nodesktop -nosplash'
 alias mpr='matlab -nodesktop -nosplash -r'
 alias nv='nvim'
-alias ca='conda activate'
+alias jan='fasd -a'        # any
+alias js='fasd -si'       # show / search / select
+alias jd='fasd -d'        # directory
+alias jf='fasd -f'        # file
+alias jsd='fasd -sid'     # interactive directory selection
+alias jsf='fasd -sif'     # interactive file selection
+alias j='fasd_cd -d'     # cd, same functionality as j in autojump
+alias jz='fasd_cd -d -i' # cd with interactive selection
+alias jdd='fasd -D' # 删除一个路径
 
+alias v='jf -e vim'
+#alias nv='jf -e nvim'
+alias batf='jf -e bat'
+alias catf='jf -e cat'
+alias py3f="jf -e python3"
+alias lsf="jd -e ls"
+alias shf='jf -e sh'
+alias commandf='jf -e command'
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/zhangzhiyu/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
+    if [ -f "/Users/zhangzhiyu/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/zhangzhiyu/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
+        export PATH="/Users/zhangzhiyu/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# 网络配置
+DEFAULT_USER="user"
+ZSH_DISABLE_COMPFIX="true"
+export all_proxy=socks5://127.0.0.1:7890
+host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+export ALL_PROXY="http://$host_ip:7890"
+# export DISPLAY=:0.0
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
