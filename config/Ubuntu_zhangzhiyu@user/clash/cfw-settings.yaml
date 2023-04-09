@@ -1,0 +1,5 @@
+showNewVersionIcon: true
+hideAfterStartup: false
+randomControllerPort: true
+runTimeFormat: "hh : mm : ss"
+theme: 3

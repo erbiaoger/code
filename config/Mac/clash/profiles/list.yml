@@ -1,0 +1,59 @@
+files:
+  - time: 1661050875978.yml
+    name: 魔戒.net
+    url: https://mojie.nl/api/v1/client/subscribe?token=91faeb658384718867146acc63d15f9b
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 魔戒.net
+        now: 优化节点
+      - name: 亚洲节点
+        now: 日本JP-T
+      - name: 优化节点
+        now: 日本-优化
+      - name: 国际节点
+        now: 日本JP-T
+      - name: 谷歌服务
+        now: 魔戒.net
+      - name: Twitter
+        now: 魔戒.net
+      - name: 微软服务
+        now: 魔戒.net
+      - name: 苹果服务
+        now: DIRECT
+      - name: Steam
+        now: 魔戒.net
+      - name: 其他服务
+        now: 魔戒.net
+    interval: 24
+    subInfo:
+      upload: 1020292075
+      download: 16998034566
+      total: 1782411427840
+    mode: rule
+    homeWeb: ""
+  - time: 1667714784710.yml
+    name: Clash_1667714784.yaml
+    url: https://sub.fnf.xyz/link/sMGnU1UqfEyFI11b?clash=1
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: Proxy
+        now: 台湾HiNet3[x0.75|NF|V2Ray]@480Mbps
+      - name: Domestic
+        now: DIRECT
+      - name: AsianTV
+        now: Domestic
+      - name: GlobalTV
+        now: Proxy
+      - name: Others
+        now: Proxy
+    interval: 0
+    subInfo:
+      upload: 9211650948
+      download: 5308907050
+      total: 64453869568
+      expire: 1670306734
+    homeWeb: ""
+    mode: rule
+index: 1

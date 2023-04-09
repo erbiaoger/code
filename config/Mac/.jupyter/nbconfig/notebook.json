@@ -1,0 +1,25 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "hinterland/hinterland": false,
+    "toc2/main": true,
+    "scratchpad/main": true,
+    "execute_time/ExecuteTime": true,
+    "codefolding/main": true,
+    "zenmode/main": true,
+    "table_beautifier/main": true,
+    "varInspector/main": true,
+    "highlighter/highlighter": true,
+    "printview/main": true,
+    "highlight_selected_word/main": true,
+    "autosavetime/main": true,
+    "hide_input_all/main": true,
+    "toggle_all_line_numbers/main": true,
+    "codemirror_mode_extensions/main": true,
+    "gist_it/main": true,
+    "splitcell/splitcell": false,
+    "runtools/main": true,
+    "rubberband/main": true
+  }
+}

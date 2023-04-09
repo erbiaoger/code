@@ -1,0 +1,32 @@
+files:
+  - url: ""
+    time: 1635571593955.yml
+    name: config.yaml
+    selected: []
+  - time: 1635571886218.yml
+    name: owM4z4.yaml
+    url: https://cdn.jsdelivr.net/gh/changfengoss/pub@main/data/2021_10_29/owM4z4.yaml
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: 🔰 节点选择
+        now: cfmem.com_🇺🇸_US_美国_5
+      - name: 🌍 国外媒体
+        now: 🔰 节点选择
+      - name: 🌏 国内媒体
+        now: 🎯 全球直连
+      - name: Ⓜ️ 微软服务
+        now: 🎯 全球直连
+      - name: 📲 电报信息
+        now: 🔰 节点选择
+      - name: 🍎 苹果服务
+        now: 🔰 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🔰 节点选择
+    interval: 0
+    subInfo: {}
+index: 1

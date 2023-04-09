@@ -1,0 +1,1157 @@
+21:03:29 INF [API] listening addr=127.0.0.1:49205
+21:03:29 INF [Inbound] Mixed(http+socks) listening addr=[::]:7890
+21:03:29 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49218 rAddr=api.github.com:443 proxy=DIRECT
+21:03:29 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49227 rAddr=init.itunes.apple.com:443 proxy=DIRECT
+21:03:29 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49229 rAddr=gateway.icloud.com.cn:443 proxy=DIRECT
+21:03:29 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49216 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+21:03:29 INF [Config] initial compatible provider name=AsianTV
+21:03:29 INF [Config] initial compatible provider name=Proxy
+21:03:29 INF [Config] initial compatible provider name=Domestic
+21:03:29 INF [Config] initial compatible provider name=Others
+21:03:29 INF [Config] initial compatible provider name=GlobalTV
+21:03:29 INF [TCP] connected lAddr=127.0.0.1:49240 rAddr=xp.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:29 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49231 rAddr=gsa.apple.com:443 proxy=DIRECT
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49242 rAddr=lcdn-locator.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49244 rAddr=gs-loc.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49246 rAddr=pd.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49248 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49254 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49256 rAddr=s.mzstatic.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49258 rAddr=play.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:30 INF [TCP] connected lAddr=127.0.0.1:49260 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:31 INF [TCP] connected lAddr=127.0.0.1:49262 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:31 INF [TCP] connected lAddr=127.0.0.1:49266 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:31 INF [TCP] connected lAddr=127.0.0.1:49271 rAddr=gdmf.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49273 rAddr=gspe1-ssl.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49276 rAddr=todeskcdnspeed.todesk.com:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49275 rAddr=todeskcdnspeed.todesk.com:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49281 rAddr=init.ess.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49280 rAddr=static.ess.apple.com:80 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49279 rAddr=wechat.todesk.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49285 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49290 rAddr=identity.ess.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:32 INF [TCP] connected lAddr=127.0.0.1:49292 rAddr=clients2.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49294 rAddr=o1068370.ingest.sentry.io:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49296 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49298 rAddr=xp.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49301 rAddr=xp.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49300 rAddr=swscan.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49303 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49308 rAddr=p207-acsegateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49309 rAddr=setup.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:33 INF [TCP] connected lAddr=127.0.0.1:49312 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49314 rAddr=identity.ess.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49317 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49320 rAddr=repo.zotero.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49318 rAddr=darkreader.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49322 rAddr=ims-prod06.adobelogin.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49326 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49329 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49335 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49330 rAddr=sandbox.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:34 INF [TCP] connected lAddr=127.0.0.1:49337 rAddr=sandbox.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49333 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49334 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49336 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49338 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49345 rAddr=apps.mzstatic.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49347 rAddr=p207-fmip.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49349 rAddr=zotero-repo.s3.amazonaws.com:443 mode=rule rule=DomainSuffix(amazonaws.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49352 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49356 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49351 rAddr=lcs-cops.adobe.io:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49355 rAddr=apple-finance.query.yahoo.com:443 mode=rule rule=DomainSuffix(yahoo.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49359 rAddr=firebase-settings.crashlytics.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49361 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49362 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:35 INF [TCP] connected lAddr=127.0.0.1:49365 rAddr=api.smoot.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:36 INF [TCP] connected lAddr=127.0.0.1:49368 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:36 INF [TCP] connected lAddr=127.0.0.1:49370 rAddr=profile.ess.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:36 INF [TCP] connected lAddr=127.0.0.1:49371 rAddr=gspe1-ssl.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:36 INF [TCP] connected lAddr=127.0.0.1:49374 rAddr=sandbox.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:36 INF [TCP] connected lAddr=127.0.0.1:49377 rAddr=gsa.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:49382 rAddr=paper.nsns.in:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:49381 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:49386 rAddr=api.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:49385 rAddr=firebaseinstallations.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:37 INF [TCP] connected lAddr=127.0.0.1:49390 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:38 INF [TCP] connected lAddr=127.0.0.1:49392 rAddr=identity.ess.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:38 INF [TCP] connected lAddr=127.0.0.1:49394 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:38 INF [TCP] connected lAddr=127.0.0.1:49396 rAddr=c3.nxn.fun:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:38 INF [TCP] connected lAddr=127.0.0.1:49398 rAddr=inappcheck.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:39 INF [TCP] connected lAddr=127.0.0.1:49401 rAddr=e1.o.lencr.org:80 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:39 INF [TCP] connected lAddr=127.0.0.1:49403 rAddr=guzzoni.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:40 INF [TCP] connected lAddr=127.0.0.1:49406 rAddr=pancake.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:40 INF [TCP] connected lAddr=127.0.0.1:49409 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:40 INF [TCP] connected lAddr=127.0.0.1:49408 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:40 INF [TCP] connected lAddr=127.0.0.1:49411 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:41 INF [TCP] connected lAddr=127.0.0.1:49415 rAddr=firebaseinstallations.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:41 INF [TCP] connected lAddr=127.0.0.1:49417 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:41 INF [TCP] connected lAddr=127.0.0.1:49421 rAddr=wl.dlservice.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:41 INF [TCP] connected lAddr=127.0.0.1:49419 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:41 INF [TCP] connected lAddr=127.0.0.1:49424 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:42 INF [TCP] connected lAddr=127.0.0.1:49426 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:42 INF [TCP] connected lAddr=127.0.0.1:49428 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:42 INF [TCP] connected lAddr=127.0.0.1:49430 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:42 INF [TCP] connected lAddr=127.0.0.1:49432 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:42 INF [TCP] connected lAddr=127.0.0.1:49434 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:43 INF [TCP] connected lAddr=127.0.0.1:49438 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:44 INF [TCP] connected lAddr=127.0.0.1:49440 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:44 INF [TCP] connected lAddr=127.0.0.1:49443 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:44 INF [TCP] connected lAddr=127.0.0.1:49444 rAddr=mesu.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:45 INF [TCP] connected lAddr=127.0.0.1:49447 rAddr=mesu.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:45 INF [TCP] connected lAddr=127.0.0.1:49451 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:45 INF [TCP] connected lAddr=127.0.0.1:49449 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:45 INF [TCP] connected lAddr=127.0.0.1:49453 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:45 INF [TCP] connected lAddr=127.0.0.1:49456 rAddr=p207-quota.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49458 rAddr=gateway.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49461 rAddr=xabjs1.icloud-content.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49460 rAddr=ct-bjs-sgh-00001.oos-cn-180622.ctyunapi.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49463 rAddr=cm-cn-central-00001.albatross.10086.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49467 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49466 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49470 rAddr=app-measurement.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49472 rAddr=cf.iadsdk.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49473 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:46 INF [TCP] connected lAddr=127.0.0.1:49477 rAddr=app-measurement.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:47 INF [TCP] connected lAddr=127.0.0.1:49480 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:47 INF [TCP] connected lAddr=127.0.0.1:49479 rAddr=api-glb-aapne1c.smoot.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49484 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49486 rAddr=sdk.talkingdata.com:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49487 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49494 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49492 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49493 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49491 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49490 rAddr=h5data.talkingdata.net:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:48 INF [TCP] connected lAddr=127.0.0.1:49503 rAddr=h5data.talkingdata.net:80 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49500 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49506 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49505 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49516 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49509 rAddr=weather-edge.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49512 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:49 INF [TCP] connected lAddr=127.0.0.1:49515 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49517 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49514 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49513 rAddr=user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49524 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49525 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49527 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:50 INF [TCP] connected lAddr=127.0.0.1:49526 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49539 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49530 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49529 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49528 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49542 rAddr=collector.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:51 INF [TCP] connected lAddr=127.0.0.1:49544 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:52 INF [TCP] connected lAddr=127.0.0.1:49548 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:49554 rAddr=weather-data.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:49557 rAddr=gspe35-ssl.ls.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:49558 rAddr=gsp-ssl.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:53 INF [TCP] connected lAddr=127.0.0.1:49562 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:56 INF [TCP] connected lAddr=127.0.0.1:49566 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:57 INF [TCP] connected lAddr=127.0.0.1:49569 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:57 INF [TCP] connected lAddr=127.0.0.1:49571 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:03:58 INF [TCP] connected lAddr=127.0.0.1:49574 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:59 INF [TCP] connected lAddr=127.0.0.1:49577 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:03:59 INF [TCP] connected lAddr=127.0.0.1:49579 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:00 INF [TCP] connected lAddr=127.0.0.1:49582 rAddr=onedriveclucprodbn20039.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=Domestic[DIRECT]
+21:04:00 INF [TCP] connected lAddr=127.0.0.1:49584 rAddr=roaming.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:00 INF [TCP] connected lAddr=127.0.0.1:49586 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:01 INF [TCP] connected lAddr=127.0.0.1:49591 rAddr=api.onedrive.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:02 INF [TCP] connected lAddr=127.0.0.1:49593 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:02 INF [TCP] connected lAddr=127.0.0.1:49596 rAddr=skyapi.live.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:03 INF [TCP] connected lAddr=127.0.0.1:49599 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:03 INF [TCP] connected lAddr=127.0.0.1:49601 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:04 INF [TCP] connected lAddr=127.0.0.1:49604 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:06 INF [TCP] connected lAddr=127.0.0.1:49609 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:07 INF [TCP] connected lAddr=127.0.0.1:49611 rAddr=objects.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:10 INF [TCP] connected lAddr=127.0.0.1:49626 rAddr=www.electronic.us:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:11 INF [TCP] connected lAddr=127.0.0.1:49631 rAddr=www.electronic.us:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49636 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49638 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49640 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49642 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49645 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:12 INF [TCP] connected lAddr=127.0.0.1:49647 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:13 INF [TCP] connected lAddr=127.0.0.1:49652 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:16 INF [TCP] connected lAddr=127.0.0.1:49658 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:17 INF [TCP] connected lAddr=127.0.0.1:49661 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:22 INF [TCP] connected lAddr=127.0.0.1:49669 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:22 INF [TCP] connected lAddr=127.0.0.1:49671 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:23 INF [TCP] connected lAddr=127.0.0.1:49675 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:25 INF [TCP] connected lAddr=127.0.0.1:49678 rAddr=api.apple-cloudkit.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:25 INF [TCP] connected lAddr=127.0.0.1:49680 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:04:27 INF [TCP] connected lAddr=127.0.0.1:49683 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:04:27 INF [TCP] connected lAddr=127.0.0.1:49686 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:34 INF [TCP] connected lAddr=127.0.0.1:49698 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:04:46 INF [TCP] connected lAddr=127.0.0.1:49712 rAddr=chrome.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:46 INF [TCP] connected lAddr=127.0.0.1:49714 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:46 INF [TCP] connected lAddr=127.0.0.1:49713 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:47 INF [TCP] connected lAddr=127.0.0.1:49719 rAddr=ssl.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:47 INF [TCP] connected lAddr=127.0.0.1:49721 rAddr=apis.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:47 INF [TCP] connected lAddr=127.0.0.1:49723 rAddr=stats.g.doubleclick.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:04:48 INF [TCP] connected lAddr=127.0.0.1:49726 rAddr=scone-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:48 INF [TCP] connected lAddr=127.0.0.1:49728 rAddr=csp.withgoogle.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:49 INF [TCP] connected lAddr=127.0.0.1:49730 rAddr=csp.withgoogle.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:49 INF [TCP] connected lAddr=127.0.0.1:49733 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:49 INF [TCP] connected lAddr=127.0.0.1:49735 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:52 INF [TCP] connected lAddr=127.0.0.1:49740 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:52 INF [TCP] connected lAddr=127.0.0.1:49742 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:52 INF [TCP] connected lAddr=127.0.0.1:49744 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:53 INF [TCP] connected lAddr=127.0.0.1:49747 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:55 INF [TCP] connected lAddr=127.0.0.1:49751 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:55 INF [TCP] connected lAddr=127.0.0.1:49753 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:56 INF [TCP] connected lAddr=127.0.0.1:49757 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:56 INF [TCP] connected lAddr=127.0.0.1:49756 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:56 INF [TCP] connected lAddr=127.0.0.1:49761 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:56 INF [TCP] connected lAddr=127.0.0.1:49760 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:59 INF [TCP] connected lAddr=127.0.0.1:49768 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:04:59 INF [TCP] connected lAddr=127.0.0.1:49771 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:05:00 INF [TCP] connected lAddr=127.0.0.1:49774 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:05:15 INF [TCP] connected lAddr=127.0.0.1:49794 rAddr=mesu.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:15 INF [TCP] connected lAddr=127.0.0.1:49795 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:32 INF [TCP] connected lAddr=127.0.0.1:49817 rAddr=p207-caldav.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:33 INF [TCP] connected lAddr=127.0.0.1:49820 rAddr=p207-caldav.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:33 INF [TCP] connected lAddr=127.0.0.1:49822 rAddr=p207-caldav.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:33 INF [TCP] connected lAddr=127.0.0.1:49824 rAddr=p207-caldav.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:05:33 INF [TCP] connected lAddr=127.0.0.1:49826 rAddr=calendars.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:05:36 INF [TCP] connected lAddr=127.0.0.1:49831 rAddr=gsp64-ssl.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:05:37 INF [TCP] connected lAddr=127.0.0.1:49834 rAddr=gsp64-ssl.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:05:51 INF [TCP] connected lAddr=127.0.0.1:49853 rAddr=init.push.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:00 INF [TCP] connected lAddr=127.0.0.1:49864 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:10 INF [TCP] connected lAddr=127.0.0.1:49877 rAddr=appstatico.electronic.us:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:21 INF [TCP] connected lAddr=127.0.0.1:49889 rAddr=mesu.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:06:28 INF [TCP] connected lAddr=127.0.0.1:49899 rAddr=gateway.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:06:37 INF [TCP] connected lAddr=127.0.0.1:49911 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:37 INF [TCP] connected lAddr=127.0.0.1:49912 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:52 INF [TCP] connected lAddr=127.0.0.1:49930 rAddr=api.apple-cloudkit.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:06:57 INF [TCP] connected lAddr=127.0.0.1:49962 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:09 INF [TCP] connected lAddr=127.0.0.1:49984 rAddr=p207-quota.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49986 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49988 rAddr=play.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49989 rAddr=s.mzstatic.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49992 rAddr=p56-buy.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49993 rAddr=sandbox.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:10 INF [TCP] connected lAddr=127.0.0.1:49997 rAddr=play.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:11 INF [TCP] connected lAddr=127.0.0.1:49999 rAddr=pd.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:11 INF [TCP] connected lAddr=127.0.0.1:50001 rAddr=bag.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:11 INF [TCP] connected lAddr=127.0.0.1:50003 rAddr=init.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:11 INF [TCP] connected lAddr=127.0.0.1:50006 rAddr=s.mzstatic.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:12 INF [TCP] connected lAddr=127.0.0.1:50008 rAddr=play.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:07:12 INF [TCP] connected lAddr=127.0.0.1:50010 rAddr=sandbox.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:12 INF [TCP] connected lAddr=127.0.0.1:50012 rAddr=p56-buy.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:13 INF [TCP] connected lAddr=127.0.0.1:50016 rAddr=p56-buy.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:13 INF [TCP] connected lAddr=127.0.0.1:50015 rAddr=p56-buy.itunes.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:16 INF [TCP] connected lAddr=127.0.0.1:50023 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:07:22 INF [TCP] connected lAddr=127.0.0.1:50032 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:07:23 INF [TCP] connected lAddr=127.0.0.1:50028 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:23 INF [TCP] connected lAddr=127.0.0.1:50035 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:24 INF [TCP] connected lAddr=127.0.0.1:50040 rAddr=in.appcenter.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:29 INF [TCP] connected lAddr=127.0.0.1:50049 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:30 INF [TCP] connected lAddr=127.0.0.1:50052 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:41 INF [TCP] connected lAddr=127.0.0.1:50073 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:07:52 INF [TCP] connected lAddr=127.0.0.1:50088 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:53 INF [TCP] connected lAddr=127.0.0.1:50091 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:53 INF [TCP] connected lAddr=127.0.0.1:50093 rAddr=adservice.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:53 INF [TCP] connected lAddr=127.0.0.1:50096 rAddr=repo.zotero.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:53 INF [TCP] connected lAddr=127.0.0.1:50099 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:53 INF [TCP] connected lAddr=127.0.0.1:50102 rAddr=repo.zotero.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:57 INF [TCP] connected lAddr=127.0.0.1:50107 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:59 INF [TCP] connected lAddr=127.0.0.1:50111 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:59 INF [TCP] connected lAddr=127.0.0.1:50113 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:59 INF [TCP] connected lAddr=127.0.0.1:50114 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:59 INF [TCP] connected lAddr=127.0.0.1:50116 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:07:59 INF [TCP] connected lAddr=127.0.0.1:50115 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:00 INF [TCP] connected lAddr=127.0.0.1:50123 rAddr=edu.xinpianchang.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:00 INF [TCP] connected lAddr=127.0.0.1:50124 rAddr=edu.xinpianchang.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:01 INF [TCP] connected lAddr=127.0.0.1:50129 rAddr=static1.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:01 INF [TCP] connected lAddr=127.0.0.1:50128 rAddr=static1.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:01 INF [TCP] connected lAddr=127.0.0.1:50130 rAddr=xpc-test.ks3-cn-beijing.ksyun.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:01 INF [TCP] connected lAddr=127.0.0.1:50135 rAddr=oss-xpc0.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50139 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50140 rAddr=hm.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50138 rAddr=oss-vmovier0.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50137 rAddr=oiky1wrat.bkt.clouddn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50145 rAddr=static1.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50147 rAddr=oiky1wrat.bkt.clouddn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50150 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50153 rAddr=sa.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50154 rAddr=hm.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50149 rAddr=oss-vmovier0.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50157 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50160 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50161 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50159 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50162 rAddr=changyan.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:02 INF [TCP] connected lAddr=127.0.0.1:50167 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50170 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50172 rAddr=oss-xpc0.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50174 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50175 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50178 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:03 INF [TCP] connected lAddr=127.0.0.1:50180 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:04 INF [TCP] connected lAddr=127.0.0.1:50184 rAddr=static1.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:04 INF [TCP] connected lAddr=127.0.0.1:50183 rAddr=static1.xpccdn.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:12 INF [TCP] connected lAddr=127.0.0.1:50197 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:16 INF [TCP] connected lAddr=127.0.0.1:50203 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:16 INF [TCP] connected lAddr=127.0.0.1:50205 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:16 INF [TCP] connected lAddr=127.0.0.1:50207 rAddr=www.sohu.com:80 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:16 INF [TCP] connected lAddr=127.0.0.1:50210 rAddr=www.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50212 rAddr=statics.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50216 rAddr=v4.passport.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50222 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50220 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50218 rAddr=search.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50221 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50228 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50230 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50232 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50234 rAddr=5b0988e595225.cdn.sohucs.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50237 rAddr=p0.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50239 rAddr=p5.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50241 rAddr=sucimg.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50243 rAddr=p3.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50245 rAddr=p8.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50247 rAddr=p1.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:17 INF [TCP] connected lAddr=127.0.0.1:50249 rAddr=pv.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50251 rAddr=v2.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50254 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50256 rAddr=adservice.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50259 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50261 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50260 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50258 rAddr=cis.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50262 rAddr=api.interaction.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50263 rAddr=p4.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50271 rAddr=zhanzhang.toutiao.com:443 mode=rule rule=DomainSuffix(toutiao.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50272 rAddr=apiv2.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:18 INF [TCP] connected lAddr=127.0.0.1:50270 rAddr=sp0.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:08:19 INF [TCP] connected lAddr=127.0.0.1:50281 rAddr=pv.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:19 INF [TCP] connected lAddr=127.0.0.1:50283 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:20 INF [TCP] connected lAddr=127.0.0.1:50286 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:20 INF [TCP] connected lAddr=127.0.0.1:50287 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:20 INF [TCP] connected lAddr=127.0.0.1:50290 rAddr=i.go.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:20 INF [TCP] connected lAddr=127.0.0.1:50292 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:22 WRN [TCP] dial failed error=lookup track.sohu.com: i/o timeout proxy=Domestic rAddr=track.sohu.com:443 rule=DomainSuffix rulePayload=sohu.com
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50276 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50296 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50279 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50277 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50278 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50236 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 WRN [TCP] dial failed error=dial tcp4 218.30.64.194:443: i/o timeout proxy=Domestic rAddr=tuijian.sogou.com:443 rule=DomainSuffix rulePayload=sogou.com
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50304 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:08:22 INF [TCP] connected lAddr=127.0.0.1:50310 rAddr=p3.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:23 INF [TCP] connected lAddr=127.0.0.1:50314 rAddr=p7.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:23 INF [TCP] connected lAddr=127.0.0.1:50313 rAddr=p9.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:23 INF [TCP] connected lAddr=127.0.0.1:50317 rAddr=p6.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:26 INF [TCP] connected lAddr=127.0.0.1:50322 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:27 WRN [TCP] dial failed error=dial tcp4 218.30.64.194:443: i/o timeout proxy=Domestic rAddr=tuijian.sogou.com:443 rule=DomainSuffix rulePayload=sogou.com
+21:08:28 INF [TCP] connected lAddr=127.0.0.1:50326 rAddr=p0.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:30 INF [TCP] connected lAddr=127.0.0.1:50329 rAddr=mojie.nl:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:31 INF [TCP] connected lAddr=127.0.0.1:50334 rAddr=p1.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:50343 rAddr=configuration.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:08:32 INF [TCP] connected lAddr=127.0.0.1:50345 rAddr=p5.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:36 INF [TCP] connected lAddr=127.0.0.1:50351 rAddr=p2.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:43 INF [TCP] connected lAddr=127.0.0.1:50363 rAddr=p8.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:08:49 INF [TCP] connected lAddr=127.0.0.1:50371 rAddr=chrome.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:49 INF [TCP] connected lAddr=127.0.0.1:50373 rAddr=setup.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50380 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:08:53 INF [TCP] connected lAddr=127.0.0.1:50379 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:05 INF [TCP] connected lAddr=127.0.0.1:50395 rAddr=statics.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:09:05 INF [TCP] connected lAddr=127.0.0.1:50398 rAddr=5b0988e595225.cdn.sohucs.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:09:05 INF [TCP] connected lAddr=127.0.0.1:50400 rAddr=sucimg.itc.cn:443 mode=rule rule=DomainSuffix(itc.cn) proxy=Domestic[DIRECT]
+21:09:05 INF [TCP] connected lAddr=127.0.0.1:50397 rAddr=configuration.ls.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:05 INF [TCP] connected lAddr=127.0.0.1:50403 rAddr=init.itunes.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:09:24 INF [TCP] connected lAddr=127.0.0.1:50431 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:25 INF [TCP] connected lAddr=127.0.0.1:50435 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:25 INF [TCP] connected lAddr=127.0.0.1:50436 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:25 INF [TCP] connected lAddr=127.0.0.1:50437 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:25 INF [TCP] connected lAddr=127.0.0.1:50434 rAddr=favicon.yandex.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:26 INF [TCP] connected lAddr=127.0.0.1:50443 rAddr=zh.wikipedia.org:443 mode=rule rule=DomainSuffix(wikipedia.org) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:26 INF [TCP] connected lAddr=127.0.0.1:50445 rAddr=adservice.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50451 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50454 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50456 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50459 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50460 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50457 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50458 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50466 rAddr=meta.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:28 INF [TCP] connected lAddr=127.0.0.1:50468 rAddr=login.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:29 INF [TCP] connected lAddr=127.0.0.1:50471 rAddr=repo.zotero.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:29 INF [TCP] connected lAddr=127.0.0.1:50474 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:30 INF [TCP] connected lAddr=127.0.0.1:50478 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:30 INF [TCP] connected lAddr=127.0.0.1:50477 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:30 INF [TCP] connected lAddr=127.0.0.1:50481 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:35 INF [TCP] connected lAddr=127.0.0.1:50490 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:54 INF [TCP] connected lAddr=127.0.0.1:50515 rAddr=track.sohu.com:443 mode=rule rule=DomainSuffix(sohu.com) proxy=Domestic[DIRECT]
+21:09:54 INF [TCP] connected lAddr=127.0.0.1:50517 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:54 INF [TCP] connected lAddr=127.0.0.1:50518 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:56 INF [TCP] connected lAddr=127.0.0.1:50525 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:09:57 INF [TCP] connected lAddr=127.0.0.1:50528 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:01 INF [TCP] connected lAddr=127.0.0.1:50534 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:04 INF [TCP] connected lAddr=127.0.0.1:50542 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:04 INF [TCP] connected lAddr=127.0.0.1:50544 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:06 INF [TCP] connected lAddr=127.0.0.1:50548 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:07 INF [TCP] connected lAddr=127.0.0.1:50551 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:08 INF [TCP] connected lAddr=127.0.0.1:50556 rAddr=www.alfredapp.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:08 INF [TCP] connected lAddr=127.0.0.1:50559 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:10:08 INF [TCP] connected lAddr=127.0.0.1:50562 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:08 INF [TCP] connected lAddr=127.0.0.1:50561 rAddr=releases.obsidian.md:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:11 INF [TCP] connected lAddr=127.0.0.1:50567 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:12 INF [TCP] connected lAddr=127.0.0.1:50570 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:16 INF [TCP] connected lAddr=127.0.0.1:50578 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:16 INF [TCP] connected lAddr=127.0.0.1:50580 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:10:17 INF [TCP] connected lAddr=127.0.0.1:50582 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:18 INF [TCP] connected lAddr=127.0.0.1:50585 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:20 INF [TCP] connected lAddr=127.0.0.1:50590 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:21 INF [TCP] connected lAddr=127.0.0.1:50593 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:10:42 INF [TCP] connected lAddr=127.0.0.1:50620 rAddr=guzzoni.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:11:10 INF [TCP] connected lAddr=127.0.0.1:50653 rAddr=chrome.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:42 INF [TCP] connected lAddr=127.0.0.1:50697 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:43 INF [TCP] connected lAddr=127.0.0.1:50699 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:43 INF [TCP] connected lAddr=127.0.0.1:50701 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:43 INF [TCP] connected lAddr=127.0.0.1:50704 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:11:44 INF [TCP] connected lAddr=127.0.0.1:50707 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:45 INF [TCP] connected lAddr=127.0.0.1:50712 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:11:46 INF [TCP] connected lAddr=127.0.0.1:50715 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:46 INF [TCP] connected lAddr=127.0.0.1:50717 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:49 INF [TCP] connected lAddr=127.0.0.1:50721 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:11:49 INF [TCP] connected lAddr=127.0.0.1:50724 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:11:50 INF [TCP] connected lAddr=127.0.0.1:50727 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:11:52 INF [TCP] connected lAddr=127.0.0.1:50731 rAddr=weather-data.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:12:03 INF [TCP] connected lAddr=127.0.0.1:50750 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:03 INF [TCP] connected lAddr=127.0.0.1:50753 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:07 INF [TCP] connected lAddr=127.0.0.1:50759 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:14 INF [TCP] connected lAddr=127.0.0.1:50774 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:30 INF [TCP] connected lAddr=127.0.0.1:50792 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:33 INF [TCP] connected lAddr=127.0.0.1:50798 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:35 INF [TCP] connected lAddr=127.0.0.1:50802 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:40 INF [TCP] connected lAddr=127.0.0.1:50809 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50828 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50831 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50837 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50835 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50838 rAddr=meta.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50834 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50833 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:52 INF [TCP] connected lAddr=127.0.0.1:50836 rAddr=upload.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:12:57 INF [TCP] connected lAddr=127.0.0.1:50849 rAddr=intake-analytics.wikimedia.org:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:12 INF [TCP] connected lAddr=127.0.0.1:50868 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:14 INF [TCP] connected lAddr=127.0.0.1:50872 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:19 INF [TCP] connected lAddr=127.0.0.1:50879 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:21 INF [TCP] connected lAddr=127.0.0.1:50883 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:24 INF [TCP] connected lAddr=127.0.0.1:50888 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:28 INF [TCP] connected lAddr=127.0.0.1:50899 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:28 INF [TCP] connected lAddr=127.0.0.1:50901 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:33 INF [TCP] connected lAddr=127.0.0.1:50910 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:36 INF [TCP] connected lAddr=127.0.0.1:50916 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:37 INF [TCP] connected lAddr=127.0.0.1:50920 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:37 INF [TCP] connected lAddr=127.0.0.1:50922 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:45 INF [TCP] connected lAddr=127.0.0.1:50933 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:45 INF [TCP] connected lAddr=127.0.0.1:50935 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:13:47 INF [TCP] connected lAddr=127.0.0.1:50939 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:47 INF [TCP] connected lAddr=127.0.0.1:50941 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:48 INF [TCP] connected lAddr=127.0.0.1:50944 rAddr=p207-quota.icloud.com.cn:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:13:48 INF [TCP] connected lAddr=127.0.0.1:50946 rAddr=help.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:13:56 INF [TCP] connected lAddr=127.0.0.1:50956 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:14:03 INF [TCP] connected lAddr=127.0.0.1:50965 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:14:03 INF [TCP] connected lAddr=127.0.0.1:50967 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:14:06 INF [TCP] connected lAddr=127.0.0.1:50972 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:14:06 INF [TCP] connected lAddr=127.0.0.1:50974 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:14:08 INF [TCP] connected lAddr=127.0.0.1:50979 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:14:31 INF [TCP] connected lAddr=127.0.0.1:51007 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:14:45 INF [TCP] connected lAddr=127.0.0.1:51025 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:14:56 INF [TCP] connected lAddr=127.0.0.1:51038 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:17:01 INF [TCP] connected lAddr=127.0.0.1:51205 rAddr=guzzoni.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:17:18 INF [TCP] connected lAddr=127.0.0.1:51227 rAddr=humb.apple.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:17:18 INF [TCP] connected lAddr=127.0.0.1:51229 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:17:18 INF [TCP] connected lAddr=127.0.0.1:51231 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:17:19 INF [TCP] connected lAddr=127.0.0.1:51234 rAddr=gateway.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:17:20 INF [TCP] connected lAddr=127.0.0.1:51237 rAddr=ocsp2.apple.com:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+21:17:25 INF [TCP] connected lAddr=127.0.0.1:51249 rAddr=gateway.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:17:37 INF [TCP] connected lAddr=127.0.0.1:51265 rAddr=gateway.icloud.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:20:12 INF [TCP] connected lAddr=127.0.0.1:51470 rAddr=diskapi.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:22:53 INF [TCP] connected lAddr=127.0.0.1:51692 rAddr=diskapi.baidu.com:443 mode=direct
+21:22:59 INF [TCP] connected lAddr=127.0.0.1:51701 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:23:00 INF [TCP] connected lAddr=127.0.0.1:51706 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:23:02 INF [TCP] connected lAddr=127.0.0.1:51710 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:23:02 INF [TCP] connected lAddr=127.0.0.1:51712 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:23:20 INF [TCP] connected lAddr=127.0.0.1:51740 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:23:33 INF [TCP] connected lAddr=127.0.0.1:51761 rAddr=help.apple.com:443 mode=direct
+21:24:33 INF [TCP] connected lAddr=127.0.0.1:51835 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:26:23 INF [TCP] connected lAddr=127.0.0.1:51976 rAddr=diskapi.baidu.com:443 mode=direct
+21:26:57 INF [TCP] connected lAddr=127.0.0.1:52022 rAddr=weather-data.apple.com:443 mode=direct
+21:27:19 INF [TCP] connected lAddr=127.0.0.1:52056 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:27:21 INF [TCP] connected lAddr=127.0.0.1:52060 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:27:21 INF [TCP] connected lAddr=127.0.0.1:52063 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:08 INF [TCP] connected lAddr=127.0.0.1:52121 rAddr=diskapi.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:28:11 INF [TCP] connected lAddr=127.0.0.1:52128 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:12 INF [TCP] connected lAddr=127.0.0.1:52130 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:12 INF [TCP] connected lAddr=127.0.0.1:52133 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:12 INF [TCP] connected lAddr=127.0.0.1:52135 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:12 INF [TCP] connected lAddr=127.0.0.1:52137 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:13 INF [TCP] connected lAddr=127.0.0.1:52140 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:15 INF [TCP] connected lAddr=127.0.0.1:52143 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:17 INF [TCP] connected lAddr=127.0.0.1:52147 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:20 INF [TCP] connected lAddr=127.0.0.1:52155 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:21 INF [TCP] connected lAddr=127.0.0.1:52157 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:26 INF [TCP] connected lAddr=127.0.0.1:52167 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:26 INF [TCP] connected lAddr=127.0.0.1:52165 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:29 INF [TCP] connected lAddr=127.0.0.1:52172 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:31 INF [TCP] connected lAddr=127.0.0.1:52176 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:32 INF [TCP] connected lAddr=127.0.0.1:52179 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:35 INF [TCP] connected lAddr=127.0.0.1:52184 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:36 INF [TCP] connected lAddr=127.0.0.1:52188 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:39 INF [TCP] connected lAddr=127.0.0.1:52194 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:42 INF [TCP] connected lAddr=127.0.0.1:52199 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:43 INF [TCP] connected lAddr=127.0.0.1:52202 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:46 INF [TCP] connected lAddr=127.0.0.1:52207 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:51 INF [TCP] connected lAddr=127.0.0.1:52213 rAddr=appstatico.electronic.us:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:51 INF [TCP] connected lAddr=127.0.0.1:52216 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:53 INF [TCP] connected lAddr=127.0.0.1:52220 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:28:54 INF [TCP] connected lAddr=127.0.0.1:52223 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:57 INF [TCP] connected lAddr=127.0.0.1:52235 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:28:57 INF [TCP] connected lAddr=127.0.0.1:52237 rAddr=diskapi.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:28:59 INF [TCP] connected lAddr=127.0.0.1:52244 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:29:00 INF [TCP] connected lAddr=127.0.0.1:52247 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:29:02 INF [TCP] connected lAddr=127.0.0.1:52252 rAddr=bnz06pap002.storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:29:11 INF [TCP] connected lAddr=127.0.0.1:52264 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:29:22 INF [TCP] connected lAddr=127.0.0.1:52277 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:30:33 INF [TCP] connected lAddr=127.0.0.1:52373 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+21:30:57 INF [TCP] connected lAddr=127.0.0.1:52407 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:30:57 INF [TCP] connected lAddr=127.0.0.1:52409 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:30:59 INF [TCP] connected lAddr=127.0.0.1:52412 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:30:59 INF [TCP] connected lAddr=127.0.0.1:52414 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:00 INF [TCP] connected lAddr=127.0.0.1:52417 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:00 INF [TCP] connected lAddr=127.0.0.1:52420 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:00 INF [TCP] connected lAddr=127.0.0.1:52422 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:01 INF [TCP] connected lAddr=127.0.0.1:52424 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:01 INF [TCP] connected lAddr=127.0.0.1:52426 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:01 INF [TCP] connected lAddr=127.0.0.1:52429 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:02 INF [TCP] connected lAddr=127.0.0.1:52432 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:03 INF [TCP] connected lAddr=127.0.0.1:52434 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:03 INF [TCP] connected lAddr=127.0.0.1:52436 rAddr=beacons.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:03 INF [TCP] connected lAddr=127.0.0.1:52439 rAddr=beacons.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:07 INF [TCP] connected lAddr=127.0.0.1:52446 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:08 INF [TCP] connected lAddr=127.0.0.1:52448 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:08 INF [TCP] connected lAddr=127.0.0.1:52450 rAddr=beacons2.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:08 INF [TCP] connected lAddr=127.0.0.1:52453 rAddr=beacons2.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:08 INF [TCP] connected lAddr=127.0.0.1:52454 rAddr=beacons2.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:08 INF [TCP] connected lAddr=127.0.0.1:52457 rAddr=beacons2.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:16 INF [TCP] connected lAddr=127.0.0.1:52467 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:16 INF [TCP] connected lAddr=127.0.0.1:52470 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:16 INF [TCP] connected lAddr=127.0.0.1:52472 rAddr=beacons3.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:17 INF [TCP] connected lAddr=127.0.0.1:52474 rAddr=beacons3.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:21 INF [TCP] connected lAddr=127.0.0.1:52480 rAddr=chrome.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:21 INF [TCP] connected lAddr=127.0.0.1:52482 rAddr=chrome.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:21 INF [TCP] connected lAddr=127.0.0.1:52484 rAddr=beacons4.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:21 INF [TCP] connected lAddr=127.0.0.1:52487 rAddr=beacons4.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:27 INF [TCP] connected lAddr=127.0.0.1:52495 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:28 INF [TCP] connected lAddr=127.0.0.1:52497 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:34 INF [TCP] connected lAddr=127.0.0.1:52505 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:34 INF [TCP] connected lAddr=127.0.0.1:52508 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:34 INF [TCP] connected lAddr=127.0.0.1:52510 rAddr=beacons5.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:35 INF [TCP] connected lAddr=127.0.0.1:52513 rAddr=beacons5.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:35 INF [TCP] connected lAddr=127.0.0.1:52512 rAddr=beacons5.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:35 INF [TCP] connected lAddr=127.0.0.1:52516 rAddr=beacons5.gvt2.com:443 mode=rule rule=DomainSuffix(gvt2.com) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:31:39 INF [TCP] connected lAddr=127.0.0.1:52528 rAddr=diskapi.baidu.com:443 mode=rule rule=DomainSuffix(baidu.com) proxy=Domestic[DIRECT]
+21:32:07 INF [TCP] connected lAddr=127.0.0.1:52559 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:32:12 INF [TCP] connected lAddr=127.0.0.1:52571 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+21:32:17 INF [TCP] connected lAddr=127.0.0.1:52599 rAddr=mtalk.google.com:5228 mode=direct
+21:32:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:32:29 INF [TCP] connected lAddr=127.0.0.1:52626 rAddr=diskapi.baidu.com:443 mode=direct
+21:32:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:32:33 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:32:38 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:33:02 INF [TCP] connected lAddr=127.0.0.1:52674 rAddr=gateway.icloud.com:443 mode=direct
+21:33:28 INF [TCP] connected lAddr=127.0.0.1:52713 rAddr=clientservices.googleapis.com:443 mode=direct
+21:33:54 INF [TCP] connected lAddr=127.0.0.1:52744 rAddr=paper.nsns.in:443 mode=direct
+21:33:58 INF [TCP] connected lAddr=127.0.0.1:52757 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:33:59 INF [TCP] connected lAddr=127.0.0.1:52760 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:34:00 INF [TCP] connected lAddr=127.0.0.1:52763 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:34:05 INF [TCP] connected lAddr=127.0.0.1:52771 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:34:15 INF [TCP] connected lAddr=127.0.0.1:52791 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:34:19 INF [TCP] connected lAddr=127.0.0.1:52799 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:34:21 INF [TCP] connected lAddr=127.0.0.1:52806 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:34:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:34:27 INF [TCP] connected lAddr=127.0.0.1:52826 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:34:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:34:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:34:35 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:34:35 WRN [TCP] dial failed error=dial tcp4 130.211.15.157:443: i/o timeout proxy=DIRECT rAddr=beacons.gcp.gvt2.com:443
+21:34:40 WRN [TCP] dial failed error=dial tcp4 130.211.15.157:443: i/o timeout proxy=DIRECT rAddr=beacons.gcp.gvt2.com:443
+21:34:48 INF [TCP] connected lAddr=127.0.0.1:52867 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:34:58 WRN [TCP] dial failed error=lookup self.events.data.microsoft.com: i/o timeout proxy=DIRECT rAddr=self.events.data.microsoft.com:443
+21:34:58 INF [TCP] connected lAddr=127.0.0.1:52881 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:35:09 INF [TCP] connected lAddr=127.0.0.1:52894 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:35:26 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:35:31 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:35:31 INF [TCP] connected lAddr=127.0.0.1:52931 rAddr=beacons.gvt2.com:443 mode=direct
+21:36:19 INF [TCP] connected lAddr=127.0.0.1:52996 rAddr=safebrowsing.googleapis.com:443 mode=direct
+21:36:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:36:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:36:31 INF [TCP] connected lAddr=127.0.0.1:53020 rAddr=beacons.gcp.gvt2.com:443 mode=direct
+21:37:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:37:25 INF [TCP] connected lAddr=127.0.0.1:53104 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:37:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:38:18 INF [TCP] connected lAddr=127.0.0.1:53178 rAddr=diskapi.baidu.com:443 mode=direct
+21:38:26 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:38:31 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:38:40 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:38:45 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:39:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:39:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:39:40 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:39:45 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:41:20 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:41:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:42:16 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:42:18 INF [TCP] connected lAddr=127.0.0.1:53526 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:42:21 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:42:29 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:42:32 INF [TCP] connected lAddr=127.0.0.1:53548 rAddr=diskapi.baidu.com:443 mode=direct
+21:42:34 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:43:42 INF [TCP] connected lAddr=127.0.0.1:53636 rAddr=diskapi.baidu.com:443 mode=direct
+21:44:09 INF [TCP] connected lAddr=127.0.0.1:53674 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:44:10 INF [TCP] connected lAddr=127.0.0.1:53677 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:44:15 INF [TCP] connected lAddr=127.0.0.1:53687 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:17 INF [TCP] connected lAddr=127.0.0.1:53690 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:17 INF [TCP] connected lAddr=127.0.0.1:53693 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:44:17 INF [TCP] connected lAddr=127.0.0.1:53695 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:44:18 INF [TCP] connected lAddr=127.0.0.1:53702 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:19 INF [TCP] connected lAddr=127.0.0.1:53705 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:23 INF [TCP] connected lAddr=127.0.0.1:53714 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:44:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:44:35 INF [TCP] connected lAddr=127.0.0.1:53742 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:44:36 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:44:36 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=play.google.com:443
+21:44:41 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+21:44:41 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=play.google.com:443
+21:45:09 INF [TCP] connected lAddr=127.0.0.1:53807 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:45:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:45:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:45:35 INF [TCP] connected lAddr=127.0.0.1:53862 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:45:38 INF [TCP] connected lAddr=127.0.0.1:53866 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:45:42 INF [TCP] connected lAddr=127.0.0.1:53878 rAddr=swallow.apple.com:443 mode=direct
+21:45:42 INF [TCP] connected lAddr=127.0.0.1:53875 rAddr=configuration.ls.apple.com:443 mode=direct
+21:45:42 INF [TCP] connected lAddr=127.0.0.1:53877 rAddr=fbs.smoot.apple.com:443 mode=direct
+21:45:43 INF [TCP] connected lAddr=127.0.0.1:53881 rAddr=swallow.apple.com:443 mode=direct
+21:45:44 INF [TCP] connected lAddr=127.0.0.1:53884 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:45:52 INF [TCP] connected lAddr=127.0.0.1:53896 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:45:55 INF [TCP] connected lAddr=127.0.0.1:53901 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:45:57 INF [TCP] connected lAddr=127.0.0.1:53905 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:09 INF [TCP] connected lAddr=127.0.0.1:53926 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:19 INF [TCP] connected lAddr=127.0.0.1:53945 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:46:24 INF [TCP] connected lAddr=127.0.0.1:53953 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:33 INF [TCP] connected lAddr=127.0.0.1:53964 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:38 INF [TCP] connected lAddr=127.0.0.1:53971 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:49 INF [TCP] connected lAddr=127.0.0.1:53990 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:49 INF [TCP] connected lAddr=127.0.0.1:53992 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:46:50 INF [TCP] connected lAddr=127.0.0.1:53995 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:51 INF [TCP] connected lAddr=127.0.0.1:54001 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:52 INF [TCP] connected lAddr=127.0.0.1:54005 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:46:53 INF [TCP] connected lAddr=127.0.0.1:54007 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:54 INF [TCP] connected lAddr=127.0.0.1:54011 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:57 INF [TCP] connected lAddr=127.0.0.1:54018 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:46:59 INF [TCP] connected lAddr=127.0.0.1:54021 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:47:20 INF [TCP] connected lAddr=127.0.0.1:54063 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:47:20 INF [TCP] connected lAddr=127.0.0.1:54065 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:47:20 INF [TCP] connected lAddr=127.0.0.1:54067 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:47:24 INF [TCP] connected lAddr=127.0.0.1:54075 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:47:24 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:47:26 INF [TCP] connected lAddr=127.0.0.1:54082 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:47:28 INF [TCP] connected lAddr=127.0.0.1:54090 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:47:29 INF [TCP] connected lAddr=127.0.0.1:54094 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:47:29 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:47:39 INF [TCP] connected lAddr=127.0.0.1:54112 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:47:51 INF [TCP] connected lAddr=127.0.0.1:54128 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:01 INF [TCP] connected lAddr=127.0.0.1:54140 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:48:02 INF [TCP] connected lAddr=127.0.0.1:54152 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:04 INF [TCP] connected lAddr=127.0.0.1:54155 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:48:04 INF [TCP] connected lAddr=127.0.0.1:54157 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:05 INF [TCP] connected lAddr=127.0.0.1:54163 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:48:05 INF [TCP] connected lAddr=127.0.0.1:54161 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:07 INF [TCP] connected lAddr=127.0.0.1:54167 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:09 INF [TCP] connected lAddr=127.0.0.1:54171 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:09 INF [TCP] connected lAddr=127.0.0.1:54173 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:10 INF [TCP] connected lAddr=127.0.0.1:54176 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:48:24 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:48:29 WRN [TCP] dial failed error=dial tcp4 142.251.42.238:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:48:54 INF [TCP] connected lAddr=127.0.0.1:54247 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:48:55 INF [TCP] connected lAddr=127.0.0.1:54250 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:49:00 INF [TCP] connected lAddr=127.0.0.1:54257 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:49:01 INF [TCP] connected lAddr=127.0.0.1:54262 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:49:10 INF [TCP] connected lAddr=127.0.0.1:54273 rAddr=gdmf.apple.com:443 mode=direct
+21:49:10 INF [TCP] connected lAddr=127.0.0.1:54275 rAddr=xp.apple.com:443 mode=direct
+21:49:11 INF [TCP] connected lAddr=127.0.0.1:54278 rAddr=xp.apple.com:443 mode=direct
+21:49:16 INF [TCP] connected lAddr=127.0.0.1:54285 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:49:19 INF [TCP] connected lAddr=127.0.0.1:54294 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:49:19 INF [TCP] connected lAddr=127.0.0.1:54296 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:49:26 INF [TCP] connected lAddr=127.0.0.1:54306 rAddr=ipcdn.apple.com:443 mode=direct
+21:49:27 INF [TCP] connected lAddr=127.0.0.1:54309 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:49:46 INF [TCP] connected lAddr=127.0.0.1:54345 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:49:50 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:49:55 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:49:57 WRN [TCP] dial failed error=lookup self.events.data.microsoft.com: i/o timeout proxy=DIRECT rAddr=self.events.data.microsoft.com:443
+21:49:57 INF [TCP] connected lAddr=127.0.0.1:54362 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:50:08 INF [TCP] connected lAddr=127.0.0.1:54378 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:50:08 INF [TCP] connected lAddr=127.0.0.1:54376 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:50:10 INF [TCP] connected lAddr=127.0.0.1:54382 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:50:11 INF [TCP] connected lAddr=127.0.0.1:54385 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:50:21 WRN [TCP] dial failed error=dial tcp4 142.251.42.238:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:50:23 INF [TCP] connected lAddr=127.0.0.1:54412 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:50:26 WRN [TCP] dial failed error=dial tcp4 142.251.42.238:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:50:35 INF [TCP] connected lAddr=127.0.0.1:54427 rAddr=gateway.icloud.com:443 mode=direct
+21:50:36 INF [TCP] connected lAddr=127.0.0.1:54430 rAddr=pancake.apple.com:443 mode=direct
+21:50:36 INF [TCP] connected lAddr=127.0.0.1:54431 rAddr=gateway.icloud.com.cn:443 mode=direct
+21:51:02 INF [TCP] connected lAddr=127.0.0.1:54462 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:51:07 INF [TCP] connected lAddr=127.0.0.1:54479 rAddr=diskapi.baidu.com:443 mode=direct
+21:51:18 WRN [TCP] dial failed error=dial tcp4 142.251.42.238:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:51:23 WRN [TCP] dial failed error=dial tcp4 142.251.42.238:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:51:33 INF [TCP] connected lAddr=127.0.0.1:54514 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:51:34 INF [TCP] connected lAddr=127.0.0.1:54517 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:51:37 INF [TCP] connected lAddr=127.0.0.1:54530 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+21:51:43 INF [TCP] connected lAddr=127.0.0.1:54538 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:51:55 INF [TCP] connected lAddr=127.0.0.1:54554 rAddr=self.events.data.microsoft.com:443 mode=direct
+21:53:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:53:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:54:24 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:54:29 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:55:13 WRN [TCP] dial failed error=dial tcp4 172.217.160.78:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:55:18 WRN [TCP] dial failed error=dial tcp4 172.217.160.78:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:56:18 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:56:23 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:56:38 WRN [TCP] dial failed error=dial tcp4 172.217.160.78:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:56:43 WRN [TCP] dial failed error=dial tcp4 172.217.160.78:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:57:00 INF [TCP] connected lAddr=127.0.0.1:54895 rAddr=weather-data.apple.com:443 mode=direct
+21:57:12 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:57:17 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:58:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:58:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:58:40 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:58:45 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+21:59:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+21:59:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:00:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:00:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:01:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:01:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:01:39 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:01:44 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:01:45 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:01:50 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:03:26 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:03:27 INF [TCP] connected lAddr=127.0.0.1:55334 rAddr=clientservices.googleapis.com:443 mode=direct
+22:03:31 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:03:36 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:03:36 INF [TCP] connected lAddr=127.0.0.1:55350 rAddr=lcs-cops.adobe.io:443 mode=direct
+22:03:41 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:03:42 INF [TCP] connected lAddr=127.0.0.1:55358 rAddr=in.appcenter.ms:443 mode=direct
+22:03:43 INF [TCP] connected lAddr=127.0.0.1:55363 rAddr=gsp-ssl.ls.apple.com:443 mode=direct
+22:03:43 INF [TCP] connected lAddr=127.0.0.1:55361 rAddr=configuration.ls.apple.com:443 mode=direct
+22:03:44 INF [TCP] connected lAddr=127.0.0.1:55365 rAddr=bag.itunes.apple.com:443 mode=direct
+22:03:44 INF [TCP] connected lAddr=127.0.0.1:55368 rAddr=ocsp2.apple.com:443 mode=direct
+22:03:58 INF [TCP] connected lAddr=127.0.0.1:55385 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:04:00 INF [TCP] connected lAddr=127.0.0.1:55390 rAddr=mesu.apple.com:443 mode=direct
+22:04:00 INF [TCP] connected lAddr=127.0.0.1:55391 rAddr=mesu.apple.com:443 mode=direct
+22:04:03 INF [TCP] connected lAddr=127.0.0.1:55396 rAddr=gsa.apple.com:443 mode=direct
+22:04:04 INF [TCP] connected lAddr=127.0.0.1:55399 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+22:04:04 INF [TCP] connected lAddr=127.0.0.1:55402 rAddr=gsas.apple.com:443 mode=direct
+22:04:05 INF [TCP] connected lAddr=127.0.0.1:55404 rAddr=onedriveclucprodbn20025.blob.core.windows.net:443 mode=direct
+22:04:12 INF [TCP] connected lAddr=127.0.0.1:55413 rAddr=paper.nsns.in:443 mode=direct
+22:04:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:04:25 INF [TCP] connected lAddr=127.0.0.1:55431 rAddr=easylist-downloads.adblockplus.org:443 mode=direct
+22:04:27 INF [TCP] connected lAddr=127.0.0.1:55436 rAddr=beacons.gcp.gvt2.com:443 mode=direct
+22:04:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:04:52 INF [TCP] connected lAddr=127.0.0.1:55464 rAddr=gateway.icloud.com.cn:443 mode=direct
+22:05:26 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:05:26 INF [TCP] connected lAddr=127.0.0.1:55505 rAddr=gsp64-ssl.ls.apple.com:443 mode=direct
+22:05:31 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:06:13 INF [TCP] connected lAddr=127.0.0.1:55557 rAddr=safebrowsing.googleapis.com:443 mode=direct
+22:06:18 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:06:23 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:06:58 INF [TCP] connected lAddr=127.0.0.1:55611 rAddr=gateway.icloud.com.cn:443 mode=direct
+22:07:29 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:07:34 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:07:39 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:07:44 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:08:23 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:08:28 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:08:43 INF [TCP] connected lAddr=127.0.0.1:55735 rAddr=www.googleapis.com:443 mode=direct
+22:08:46 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:46 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:46 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:51 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:08:51 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:51 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:51 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:56 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:08:57 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:58 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:08:59 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:02 INF [TCP] connected lAddr=127.0.0.1:55778 rAddr=www.googleapis.com:443 mode=direct
+22:09:02 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:03 WRN [TCP] dial failed error=dial tcp4 172.217.160.106:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:09 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:10 INF [TCP] connected lAddr=127.0.0.1:55796 rAddr=www.googleapis.com:443 mode=direct
+22:09:11 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:14 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:16 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:19 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:21 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:24 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:26 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:26 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:29 INF [TCP] connected lAddr=127.0.0.1:55836 rAddr=alive.github.com:443 mode=direct
+22:09:31 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:33 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:36 WRN [TCP] dial failed error=dial tcp4 172.217.160.106:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:38 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:38 INF [TCP] connected lAddr=127.0.0.1:55848 rAddr=www.googleapis.com:443 mode=direct
+22:09:41 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:44 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:52 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:52 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:55 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:57 WRN [TCP] dial failed error=dial tcp4 172.217.160.106:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:57 INF [TCP] connected lAddr=127.0.0.1:55886 rAddr=www.googleapis.com:443 mode=direct
+22:09:57 WRN [TCP] dial failed error=dial tcp4 172.217.160.106:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:09:58 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:00 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:10:03 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:05 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:10:08 INF [TCP] connected lAddr=127.0.0.1:55909 rAddr=releases.obsidian.md:443 mode=direct
+22:10:09 INF [TCP] connected lAddr=127.0.0.1:55910 rAddr=raw.githubusercontent.com:443 mode=direct
+22:10:18 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:19 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:23 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:24 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:10:25 WRN [TCP] dial failed error=dial tcp4 172.217.160.106:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:10:30 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:45 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:10:50 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:11:26 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:11:31 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:11:36 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:11:41 WRN [TCP] dial failed error=lookup google.com: i/o timeout proxy=DIRECT rAddr=google.com:443
+22:11:51 INF [TCP] connected lAddr=127.0.0.1:56047 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+22:11:52 INF [TCP] connected lAddr=127.0.0.1:56049 rAddr=api.onedrive.com:443 mode=direct
+22:12:12 INF [TCP] connected lAddr=127.0.0.1:56073 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:12:25 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:12:28 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:12:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:12:30 INF [TCP] connected lAddr=127.0.0.1:56101 rAddr=beacons.gcp.gvt2.com:443 mode=direct
+22:12:33 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:12:36 INF [TCP] connected lAddr=127.0.0.1:56109 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:12:37 INF [TCP] connected lAddr=127.0.0.1:56112 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:12:37 INF [TCP] connected lAddr=127.0.0.1:56115 rAddr=in.appcenter.ms:443 mode=direct
+22:12:39 INF [TCP] connected lAddr=127.0.0.1:56119 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+22:12:41 INF [TCP] connected lAddr=127.0.0.1:56123 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+22:12:42 INF [TCP] connected lAddr=127.0.0.1:56126 rAddr=alive.github.com:443 mode=direct
+22:12:46 INF [TCP] connected lAddr=127.0.0.1:56132 rAddr=ocsp2.apple.com:443 mode=direct
+22:12:55 INF [TCP] connected lAddr=127.0.0.1:56144 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:18 INF [TCP] connected lAddr=127.0.0.1:56170 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:20 INF [TCP] connected lAddr=127.0.0.1:56174 rAddr=in.appcenter.ms:443 mode=direct
+22:13:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:13:30 WRN [TCP] dial failed error=lookup chrome.google.com: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:13:35 INF [TCP] connected lAddr=127.0.0.1:56193 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:37 INF [TCP] connected lAddr=127.0.0.1:56197 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:39 INF [TCP] connected lAddr=127.0.0.1:56201 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:41 INF [TCP] connected lAddr=127.0.0.1:56205 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:42 INF [TCP] connected lAddr=127.0.0.1:56209 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:44 INF [TCP] connected lAddr=127.0.0.1:56213 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:46 INF [TCP] connected lAddr=127.0.0.1:56216 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:48 INF [TCP] connected lAddr=127.0.0.1:56221 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:49 INF [TCP] connected lAddr=127.0.0.1:56225 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:51 INF [TCP] connected lAddr=127.0.0.1:56228 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:52 INF [TCP] connected lAddr=127.0.0.1:56231 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:53 INF [TCP] connected lAddr=127.0.0.1:56234 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:55 INF [TCP] connected lAddr=127.0.0.1:56239 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:57 INF [TCP] connected lAddr=127.0.0.1:56243 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:13:58 INF [TCP] connected lAddr=127.0.0.1:56247 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:00 INF [TCP] connected lAddr=127.0.0.1:56251 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:02 INF [TCP] connected lAddr=127.0.0.1:56254 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:04 INF [TCP] connected lAddr=127.0.0.1:56258 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:12 INF [TCP] connected lAddr=127.0.0.1:56268 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:15 INF [TCP] connected lAddr=127.0.0.1:56274 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:15 INF [TCP] connected lAddr=127.0.0.1:56276 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:16 INF [TCP] connected lAddr=127.0.0.1:56279 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:16 INF [TCP] connected lAddr=127.0.0.1:56280 rAddr=in.appcenter.ms:443 mode=direct
+22:14:17 INF [TCP] connected lAddr=127.0.0.1:56284 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:18 INF [TCP] connected lAddr=127.0.0.1:56287 rAddr=in.appcenter.ms:443 mode=direct
+22:14:19 INF [TCP] connected lAddr=127.0.0.1:56289 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:21 INF [TCP] connected lAddr=127.0.0.1:56293 rAddr=bnz06pap002.storage.live.com:443 mode=direct
+22:14:21 INF [TCP] connected lAddr=127.0.0.1:56296 rAddr=onedriveclucprodbn20017.blob.core.windows.net:443 mode=direct
+22:14:26 INF [TCP] connected lAddr=127.0.0.1:56303 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:28 INF [TCP] connected lAddr=127.0.0.1:56306 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:28 INF [TCP] connected lAddr=127.0.0.1:56309 rAddr=weather-data.apple.com:443 mode=direct
+22:14:28 INF [TCP] connected lAddr=127.0.0.1:56311 rAddr=ocsp2.apple.com:443 mode=direct
+22:14:36 INF [TCP] connected lAddr=127.0.0.1:56321 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:37 INF [TCP] connected lAddr=127.0.0.1:56324 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:38 INF [TCP] connected lAddr=127.0.0.1:56326 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:39 INF [TCP] connected lAddr=127.0.0.1:56333 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:40 INF [TCP] connected lAddr=127.0.0.1:56336 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:41 INF [TCP] connected lAddr=127.0.0.1:56339 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:42 INF [TCP] connected lAddr=127.0.0.1:56342 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:43 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=play.google.com:443
+22:14:43 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:14:43 INF [TCP] connected lAddr=127.0.0.1:56350 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:44 INF [TCP] connected lAddr=127.0.0.1:56352 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:47 INF [TCP] connected lAddr=127.0.0.1:56357 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:48 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:14:48 WRN [TCP] dial failed error=dial tcp4 172.217.160.110:443: i/o timeout proxy=DIRECT rAddr=play.google.com:443
+22:14:48 INF [TCP] connected lAddr=127.0.0.1:56362 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:49 INF [TCP] connected lAddr=127.0.0.1:56364 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:49 INF [TCP] connected lAddr=127.0.0.1:56367 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:50 INF [TCP] connected lAddr=127.0.0.1:56370 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:14:51 INF [TCP] connected lAddr=127.0.0.1:56373 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:00 INF [TCP] connected lAddr=127.0.0.1:56384 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:00 INF [TCP] connected lAddr=127.0.0.1:56386 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:01 INF [TCP] connected lAddr=127.0.0.1:56389 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:04 INF [TCP] connected lAddr=127.0.0.1:56394 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56400 rAddr=h.trace.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56403 rAddr=ios.rqd.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56399 rAddr=content.rconfig.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56401 rAddr=oss.weread.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56397 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56409 rAddr=bag.itunes.apple.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56404 rAddr=szmg.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56410 rAddr=i.weread.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56414 rAddr=i.weread.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56417 rAddr=api.unipay.qq.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56419 rAddr=inappcheck.itunes.apple.com:443 mode=direct
+22:15:05 INF [TCP] connected lAddr=127.0.0.1:56421 rAddr=szmg.qq.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56425 rAddr=oss.weread.qq.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56423 rAddr=res.weread.qq.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56424 rAddr=oss.mail.qq.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56429 rAddr=112.90.80.67:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56431 rAddr=wrco-40036.sh.gfp.tencent-cloud.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56433 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:06 INF [TCP] connected lAddr=127.0.0.1:56435 rAddr=wrco-40036.sh.gfp.tencent-cloud.com:443 mode=direct
+22:15:07 INF [TCP] connected lAddr=127.0.0.1:56438 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:08 INF [TCP] connected lAddr=127.0.0.1:56441 rAddr=help.apple.com:443 mode=direct
+22:15:09 INF [TCP] connected lAddr=127.0.0.1:56446 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:11 INF [TCP] connected lAddr=127.0.0.1:56450 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:12 INF [TCP] connected lAddr=127.0.0.1:56453 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:12 INF [TCP] connected lAddr=127.0.0.1:56455 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:13 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:15:14 INF [TCP] connected lAddr=127.0.0.1:56461 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:16 INF [TCP] connected lAddr=127.0.0.1:56465 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:18 INF [TCP] connected lAddr=127.0.0.1:56469 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:18 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:15:19 INF [TCP] connected lAddr=127.0.0.1:56472 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:23 INF [TCP] connected lAddr=127.0.0.1:56478 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:24 INF [TCP] connected lAddr=127.0.0.1:56481 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:25 INF [TCP] connected lAddr=127.0.0.1:56484 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:27 INF [TCP] connected lAddr=127.0.0.1:56488 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:29 INF [TCP] connected lAddr=127.0.0.1:56491 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:30 INF [TCP] connected lAddr=127.0.0.1:56495 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:32 INF [TCP] connected lAddr=127.0.0.1:56499 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:34 INF [TCP] connected lAddr=127.0.0.1:56503 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:36 INF [TCP] connected lAddr=127.0.0.1:56507 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:36 INF [TCP] connected lAddr=127.0.0.1:56509 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:37 INF [TCP] connected lAddr=127.0.0.1:56512 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:39 INF [TCP] connected lAddr=127.0.0.1:56516 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:40 INF [TCP] connected lAddr=127.0.0.1:56519 rAddr=guzzoni.apple.com:443 mode=direct
+22:15:41 INF [TCP] connected lAddr=127.0.0.1:56522 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:42 INF [TCP] connected lAddr=127.0.0.1:56525 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:44 INF [TCP] connected lAddr=127.0.0.1:56529 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:46 INF [TCP] connected lAddr=127.0.0.1:56533 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:48 INF [TCP] connected lAddr=127.0.0.1:56536 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:48 INF [TCP] connected lAddr=127.0.0.1:56539 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:49 INF [TCP] connected lAddr=127.0.0.1:56542 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:51 INF [TCP] connected lAddr=127.0.0.1:56546 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:52 INF [TCP] connected lAddr=127.0.0.1:56549 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:54 INF [TCP] connected lAddr=127.0.0.1:56553 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:56 INF [TCP] connected lAddr=127.0.0.1:56558 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:58 INF [TCP] connected lAddr=127.0.0.1:56562 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:15:59 INF [TCP] connected lAddr=127.0.0.1:56566 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:01 INF [TCP] connected lAddr=127.0.0.1:56569 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:01 INF [TCP] connected lAddr=127.0.0.1:56572 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:03 INF [TCP] connected lAddr=127.0.0.1:56576 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:05 INF [TCP] connected lAddr=127.0.0.1:56579 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:06 INF [TCP] connected lAddr=127.0.0.1:56583 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:08 INF [TCP] connected lAddr=127.0.0.1:56587 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:10 INF [TCP] connected lAddr=127.0.0.1:56590 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:11 INF [TCP] connected lAddr=127.0.0.1:56594 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:12 INF [TCP] connected lAddr=127.0.0.1:56597 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:13 INF [TCP] connected lAddr=127.0.0.1:56600 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:14 INF [TCP] connected lAddr=127.0.0.1:56602 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:15 INF [TCP] connected lAddr=127.0.0.1:56606 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:16 INF [TCP] connected lAddr=127.0.0.1:56611 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:18 INF [TCP] connected lAddr=127.0.0.1:56615 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:19 INF [TCP] connected lAddr=127.0.0.1:56618 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:20 INF [TCP] connected lAddr=127.0.0.1:56621 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:21 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:16:22 INF [TCP] connected lAddr=127.0.0.1:56626 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:23 INF [TCP] connected lAddr=127.0.0.1:56630 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:25 INF [TCP] connected lAddr=127.0.0.1:56633 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:26 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:16:26 INF [TCP] connected lAddr=127.0.0.1:56637 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:27 INF [TCP] connected lAddr=127.0.0.1:56640 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:29 INF [TCP] connected lAddr=127.0.0.1:56643 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:30 INF [TCP] connected lAddr=127.0.0.1:56647 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:32 INF [TCP] connected lAddr=127.0.0.1:56650 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:33 INF [TCP] connected lAddr=127.0.0.1:56654 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:34 INF [TCP] connected lAddr=127.0.0.1:56657 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:36 INF [TCP] connected lAddr=127.0.0.1:56660 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:37 INF [TCP] connected lAddr=127.0.0.1:56664 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:39 INF [TCP] connected lAddr=127.0.0.1:56667 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:40 INF [TCP] connected lAddr=127.0.0.1:56671 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:41 INF [TCP] connected lAddr=127.0.0.1:56674 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:43 INF [TCP] connected lAddr=127.0.0.1:56677 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:44 INF [TCP] connected lAddr=127.0.0.1:56681 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:45 INF [TCP] connected lAddr=127.0.0.1:56684 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:47 INF [TCP] connected lAddr=127.0.0.1:56687 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:48 INF [TCP] connected lAddr=127.0.0.1:56691 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:16:49 INF [TCP] connected lAddr=127.0.0.1:56694 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:17:17 WRN [TCP] dial failed error=dial tcp4 172.217.163.46:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:17:22 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:17:23 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:17:28 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:18:10 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:18:16 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:18:27 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:18:32 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:01 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:19:06 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=clients4.google.com:443
+22:19:25 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:19:30 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:19:48 INF [TCP] connected lAddr=127.0.0.1:56906 rAddr=self.events.data.microsoft.com:443 mode=direct
+22:19:53 INF [TCP] connected lAddr=127.0.0.1:56927 rAddr=valid.apple.com:443 mode=direct
+22:19:55 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:55 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:55 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:55 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:56 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:56 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:19:57 INF [TCP] connected lAddr=127.0.0.1:56948 rAddr=www.gstatic.com:443 mode=direct
+22:19:59 WRN [TCP] dial failed error=dial tcp4 142.251.43.10:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:20:00 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:00 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:00 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:00 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:01 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:01 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:04 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:20:06 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:08 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:11 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:11 WRN [TCP] dial failed error=dial tcp4 172.217.163.42:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:20:13 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:16 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:20:16 WRN [TCP] dial failed error=dial tcp4 142.251.42.234:443: i/o timeout proxy=DIRECT rAddr=www.googleapis.com:443
+22:20:16 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:16 INF [TCP] connected lAddr=127.0.0.1:56994 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:18 INF [TCP] connected lAddr=127.0.0.1:56998 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:18 INF [TCP] connected lAddr=127.0.0.1:57000 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:18 INF [TCP] connected lAddr=127.0.0.1:57002 rAddr=adservice.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:19 WRN [TCP] dial failed error=dial tcp4 107.181.166.244:443: i/o timeout proxy=DIRECT rAddr=www.google.com:443
+22:20:19 INF [TCP] connected lAddr=127.0.0.1:57005 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:20 INF [TCP] connected lAddr=127.0.0.1:57009 rAddr=www.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:20 INF [TCP] connected lAddr=127.0.0.1:57008 rAddr=www.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:21 WRN [TCP] dial failed error=dial tcp4 142.251.43.14:443: i/o timeout proxy=DIRECT rAddr=chrome.google.com:443
+22:20:21 INF [TCP] connected lAddr=127.0.0.1:57016 rAddr=statics-marketingsites-eas-ms-com.akamaized.net:443 mode=rule rule=DomainSuffix(akamaized.net) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:21 INF [TCP] connected lAddr=127.0.0.1:57014 rAddr=query.prod.cms.rt.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:21 INF [TCP] connected lAddr=127.0.0.1:57018 rAddr=az725175.vo.msecnd.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57023 rAddr=img-prod-cms-rt-microsoft-com.akamaized.net:443 mode=rule rule=DomainSuffix(akamaized.net) proxy=GlobalTV[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57021 rAddr=wcpstatic.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57027 rAddr=mem.gfx.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57037 rAddr=c.s-microsoft.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57036 rAddr=c.s-microsoft.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57026 rAddr=cdn-dynmedia-1.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57024 rAddr=cdn-dynmedia-1.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57025 rAddr=cdn-dynmedia-1.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57022 rAddr=query.prod.cms.rt.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57028 rAddr=query.prod.cms.rt.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:22 INF [TCP] connected lAddr=127.0.0.1:57041 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:23 INF [TCP] connected lAddr=127.0.0.1:57044 rAddr=js.monitor.azure.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:23 INF [TCP] connected lAddr=127.0.0.1:57047 rAddr=assets.adobedtm.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:23 INF [TCP] connected lAddr=127.0.0.1:57049 rAddr=mem.gfx.ms:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:23 INF [TCP] connected lAddr=127.0.0.1:57051 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:23 INF [TCP] connected lAddr=127.0.0.1:57043 rAddr=fpt.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:24 INF [TCP] connected lAddr=127.0.0.1:57054 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:24 INF [TCP] connected lAddr=127.0.0.1:57055 rAddr=fpt2.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:24 INF [TCP] connected lAddr=127.0.0.1:57057 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57062 rAddr=acctcdn.msauth.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57063 rAddr=acctcdn.msftauth.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57061 rAddr=logincdn.msauth.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57067 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57070 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57072 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57073 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57077 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:25 INF [TCP] connected lAddr=127.0.0.1:57076 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:20:27 INF [TCP] connected lAddr=127.0.0.1:57082 rAddr=onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:27 INF [TCP] connected lAddr=127.0.0.1:57083 rAddr=onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:28 INF [TCP] connected lAddr=127.0.0.1:57086 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:28 INF [TCP] connected lAddr=127.0.0.1:57087 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:31 INF [TCP] connected lAddr=127.0.0.1:57094 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:31 INF [TCP] connected lAddr=127.0.0.1:57095 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:20:34 INF [TCP] connected lAddr=127.0.0.1:57101 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57140 rAddr=api.onedrive.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57143 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57142 rAddr=modernb.akamai.odsp.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57146 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57151 rAddr=shellprod.msocdn.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57150 rAddr=modernb.akamai.odsp.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57148 rAddr=browser.pipe.aria.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57155 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:11 INF [TCP] connected lAddr=127.0.0.1:57157 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57159 rAddr=res-1.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57161 rAddr=res.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57162 rAddr=ecs.office.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57163 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57167 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57171 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:12 INF [TCP] connected lAddr=127.0.0.1:57170 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57174 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57177 rAddr=modernb.akamai.odsp.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57182 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57188 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57187 rAddr=modernb.akamai.odsp.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57191 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57181 rAddr=browser.pipe.aria.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57179 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57180 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:13 INF [TCP] connected lAddr=127.0.0.1:57193 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:14 INF [TCP] connected lAddr=127.0.0.1:57196 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:14 INF [TCP] connected lAddr=127.0.0.1:57198 rAddr=skyapi.onedrive.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:15 INF [TCP] connected lAddr=127.0.0.1:57200 rAddr=api.onedrive.com:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:15 INF [TCP] connected lAddr=127.0.0.1:57202 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:15 INF [TCP] connected lAddr=127.0.0.1:57205 rAddr=res-1.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57207 rAddr=res.cdn.office.net:443 mode=rule rule=GeoIP(CN) proxy=Domestic[DIRECT]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57209 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57215 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57211 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57213 rAddr=browser.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:16 INF [TCP] connected lAddr=127.0.0.1:57218 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:17 INF [TCP] connected lAddr=127.0.0.1:57220 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:17 INF [TCP] connected lAddr=127.0.0.1:57222 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:17 INF [TCP] connected lAddr=127.0.0.1:57224 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:18 INF [TCP] connected lAddr=127.0.0.1:57228 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:19 INF [TCP] connected lAddr=127.0.0.1:57230 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:20 INF [TCP] connected lAddr=127.0.0.1:57233 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:20 INF [TCP] connected lAddr=127.0.0.1:57235 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:20 INF [TCP] connected lAddr=127.0.0.1:57237 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:22 INF [TCP] connected lAddr=127.0.0.1:57241 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:23 INF [TCP] connected lAddr=127.0.0.1:57245 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:23 INF [TCP] connected lAddr=127.0.0.1:57247 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:23 INF [TCP] connected lAddr=127.0.0.1:57250 rAddr=www.bing.com:443 mode=rule rule=DomainSuffix(bing.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:26 INF [TCP] connected lAddr=127.0.0.1:57255 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:26 INF [TCP] connected lAddr=127.0.0.1:57254 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=Domestic[DIRECT]
+22:21:26 INF [TCP] connected lAddr=127.0.0.1:57259 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:28 INF [TCP] connected lAddr=127.0.0.1:57262 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:30 INF [TCP] connected lAddr=127.0.0.1:57266 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:31 INF [TCP] connected lAddr=127.0.0.1:57270 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:32 INF [TCP] connected lAddr=127.0.0.1:57272 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:33 INF [TCP] connected lAddr=127.0.0.1:57275 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:36 INF [TCP] connected lAddr=127.0.0.1:57281 rAddr=content.lifecycle.office.net:443 mode=rule rule=Match() proxy=Others[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]
+22:21:38 INF [TCP] connected lAddr=127.0.0.1:57284 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[台湾HiNet2[x0.75|NF|V2Ray]@480Mbps]

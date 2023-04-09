@@ -1,0 +1,18 @@
+09:55:57 INF [Inbound] Mixed(http+socks) listening addr=[::]:7890
+09:55:57 INF [API] listening addr=127.0.0.1:39887
+09:55:57 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT rAddr=raw.githubusercontent.com:443
+09:55:57 WRN [TCP] dial failed error=dial tcp4 0.0.0.0:443: connect: connection refused proxy=DIRECT rAddr=raw.githubusercontent.com:443
+09:55:57 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:47258 rAddr=api.github.com:443 proxy=DIRECT
+09:55:57 INF [Config] initial compatible provider name=亚洲节点
+09:55:57 INF [Config] initial compatible provider name=魔戒.net
+09:55:57 INF [Config] initial compatible provider name=其他服务
+09:55:57 INF [Config] initial compatible provider name=微软服务
+09:55:57 INF [Config] initial compatible provider name=Steam
+09:55:57 INF [Config] initial compatible provider name=苹果服务
+09:55:57 INF [Config] initial compatible provider name=国际节点
+09:55:57 INF [Config] initial compatible provider name=优化节点
+09:55:57 INF [Config] initial compatible provider name=谷歌服务
+09:55:57 INF [Config] initial compatible provider name=Twitter
+09:55:57 INF [Config] initial compatible provider name=故障转移
+09:55:57 INF [Config] initial compatible provider name=自动选择
+09:55:57 INF [DNS] server listening addr=[::]:5553
