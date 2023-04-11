@@ -1,5 +1,3 @@
-__all__ = ['mytools', 'plot', 'Timer']
+__all__ = ['mytools']
 
 from .mytools import *
-from .plot import *
-from .Timer import *
