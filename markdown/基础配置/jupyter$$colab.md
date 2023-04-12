@@ -1,8 +1,22 @@
 # Jupyter && Colab
 
 参照：
-
 https://dummerfu.top/p/64572.html
+- [Jupyter \&\& Colab](#jupyter--colab)
+  - [$ colab 实现本地连接](#-colab-实现本地连接)
+    - [$ 安装 jupyter](#-安装-jupyter)
+    - [$ `启用jupyter_http_over_ws jupyter 扩展程序（连接到本地需要`](#-启用jupyter_http_over_ws-jupyter-扩展程序连接到本地需要)
+    - [$ 启动jupyter 最后一行参数是为了挂载到本地后能打开自己的文件](#-启动jupyter-最后一行参数是为了挂载到本地后能打开自己的文件)
+  - [$ 优化](#-优化)
+    - [生成配置文件](#生成配置文件)
+    - [更改参数](#更改参数)
+    - [更改token](#更改token)
+    - [取消自动重定向](#取消自动重定向)
+    - [后台运行](#后台运行)
+  - [Jupyter notebook 插件](#jupyter-notebook-插件)
+    - [1. 安装并激活 **jupyter\_contrib\_nbextensions**，](#1-安装并激活-jupyter_contrib_nbextensions)
+    - [2. 安装并启用 **Jupyter Nbextensions Configurator**](#2-安装并启用-jupyter-nbextensions-configurator)
+
 
 ## $ colab 实现本地连接
 

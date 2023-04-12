@@ -2,12 +2,29 @@
 
 ![git 结构](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202303192139836.jpg)
 
-
 ![git 工作流程](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202303192139707.png)
+
+- [ Learn Git](#-learn-git)
+  - [基础操作](#基础操作)
+    - [创建仓库命令](#创建仓库命令)
+  - [提交与修改](#提交与修改)
+    - [提交日志](#提交日志)
+    - [远程操作](#远程操作)
+    - [初始化仓库](#初始化仓库)
+    - [提交文件到缓存区](#提交文件到缓存区)
+    - [提交文件到](#提交文件到)
+    - [查看提交状态](#查看提交状态)
+  - [查看提交记录](#查看提交记录)
+    - [查看提交记录](#查看提交记录-1)
+    - [查看历史命令](#查看历史命令)
+  - [版本回退](#版本回退)
+    - [**--soft** ](#--soft)
+    - [**--hard** ](#--hard)
+    - [**HEAD 说明：**](#head-说明)
+    - [git reset HEAD](#git-reset-head)
 
 
 ## 基础操作
-
 
 
 ### 创建仓库命令

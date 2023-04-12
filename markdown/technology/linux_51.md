@@ -1,11 +1,17 @@
-一、安装交叉编译工具
+- [一、安装交叉编译工具](#一安装交叉编译工具)
+- [二、建立烧写环境](#二建立烧写环境)
+- [三、提升USB访问权限](#三提升usb访问权限)
+- [四、代码编译](#四代码编译)
+- [五、烧写](#五烧写)
+
+## 一、安装交叉编译工具
 （1）安装SDCC（shell下编译工具）
 方法1（shell）：sudo apt-get install sdcc
 方法2（软件管理器）：搜索sdcc并安装
 （2）或安装MCU8051 IDE
 方法（软件管理器）：搜索MCU8051并安装
 
-二、建立烧写环境
+## 二、建立烧写环境
 安装烧写工具
 （1）安装stcflash
 下载stcflash： 网址(http://github.com/laborer/stcflash)，用python写的向单片机烧写bin文件的脚本
@@ -40,16 +46,14 @@ sudo mv stcflash /usr/local/bin
 
 make load 加载驱动即可。
 
-
-三、提升USB访问权限
+## 三、提升USB访问权限
 使用USB口,串口之类启动时容易出现:/dev/ttyUSB0 permission denied.原因为不是root用户，对端口没有权限．
 用下面这条指令：
 sudo usermod -a -G dialout user_name
 用户名加入dialout用户组，然后注销电脑．这样以后不用修改权限了
 *实测不好用，改为 chmod 666 /dev/ttyS4*
 
-
-四、代码编译
+## 四、代码编译
 方法1：
 SDCC（shell）：sdcc text.c
 
@@ -76,7 +80,7 @@ packihx file.ihx >file.hex 转换为hex文件
 接着下载hex2bin文件，网址(http://sourceforge.net/projects/hex2bin/files/latest/download)
 命令：hex2bin test.hex  转换为bin文件
 
-五、烧写
+## 五、烧写
 1、shell查看本机的串口：python3 -m serial.tools.list_ports
 2、shell读取单片机信息：stcflash
 

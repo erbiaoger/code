@@ -5,27 +5,26 @@
 
 # Table of contents
 
-<!--ts-->
-* [use_nas](#use_nas)
-   * [说明](#说明)
-   * [使用](#使用)
-      * [windows](#windows)
-      * [linux (ubuntu)](#linux-ubuntu)
-      * [Mac](#mac)
-   * [自动同步功能](#自动同步功能)
-      * [windows](#windows-1)
-      * [ubuntu](#ubuntu)
-      * [Mac](#mac-1)
-   * [外网访问](#外网访问)
-      * [网页端](#网页端)
-      * [电脑客户端](#电脑客户端)
-      * [手机](#手机)
-   * [文件结构](#文件结构)
+- [use\_nas](#use_nas)
+- [Table of contents](#table-of-contents)
+  - [说明](#说明)
+  - [使用](#使用)
+    - [windows](#windows)
+    - [linux (ubuntu)](#linux-ubuntu)
+    - [Mac](#mac)
+  - [自动同步功能](#自动同步功能)
+    - [windows](#windows-1)
+    - [ubuntu](#ubuntu)
+    - [Mac](#mac-1)
+  - [外网访问](#外网访问)
+    - [网页端](#网页端)
+    - [电脑客户端](#电脑客户端)
+    - [手机](#手机)
+  - [文件结构](#文件结构)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!-- Added by: zhangzhiyu, at: 2022年11月24日 星期四 22时23分15秒 CST -->
 
-<!--te-->
 
 Data: 2022年11月9日下午7:39:38
 
