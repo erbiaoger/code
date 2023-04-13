@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+
+<html lang="zn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>一、Make 的格式 &#8212; MyFile 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <p>代码变成可执行文件，叫做编译（compile）；先编译这个，还是先编译那个（即编译的安排），叫做构建（build）。</p>
+<section id="make">
+<h1>一、Make 的格式<a class="headerlink" href="#make" title="Permalink to this heading">¶</a></h1>
+<p>Makefile文件由一系列<strong>规则</strong>（rules）构成。每条规则的形式如下。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&lt;target&gt;<span class="w"> </span>:<span class="w"> </span>&lt;prerequisites&gt;
+<span class="o">[</span>tab<span class="o">]</span><span class="w">  </span>&lt;commands&gt;
+</pre></div>
+</div>
+<p>上面第一行冒号前面的部分，叫做”目标”（target），冒号后面的部分叫做”前置条件”（prerequisites）；第二行必须由一个tab键起首，后面跟着”命令”（commands）。</p>
+<p>每条规则就明确两件事：构建目标的前置条件是什么，以及如何构建。</p>
+<section id="target">
+<h2>2.2 目标(target)<a class="headerlink" href="#target" title="Permalink to this heading">¶</a></h2>
+<p>一个目标（target）就构成一条规则。目标通常是文件名，指明Make命令所要构建的对象。目标可以是一个文件名，也可以是多个文件名，之间用空格分隔。</p>
+<p>除了文件名，目标还可以是某个操作的名字，这称为”伪目标”（phony target）。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>clean:
+<span class="w">      </span>rm<span class="w"> </span>*.o
+</pre></div>
+</div>
+<p>上面代码的目标是clean，它不是文件名，而是一个操作的名字，属于”伪目标
+“，作用是删除对象文件。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>make<span class="w">  </span>clean
+</pre></div>
+</div>
+<p>但是，如果当前目录中，正好有一个文件叫做clean，那么这个命令不会执行。因为Make发现clean文件已经存在，就认为没有必要重新构建了，就不会执行指定的rm命令。</p>
+<p>为了避免这种情况，可以明确声明clean是”伪目标”，写法如下。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>.PHONY:<span class="w"> </span>clean
+clean:
+<span class="w">        </span>rm<span class="w"> </span>*.o<span class="w"> </span>temp
+</pre></div>
+</div>
+<p>如果Make命令运行时没有指定目标，默认会执行Makefile文件的第一个目标。</p>
+</section>
+<section id="prerequisites">
+<h2>2.3 前置条件（prerequisites）<a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h2>
+<p>前置条件通常是<strong>一组文件名</strong>(也可以是目标)，之间用空格分隔。它指定了”目标”是否重新构建的判断标准：只要有一个前置文件不存在，或者有过更新（前置文件的last-modification时间戳比目标的时间戳新），“目标”就需要重新构建。</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>result.txt:<span class="w"> </span>source.txt
+<span class="w">    </span>cp<span class="w"> </span>source.txt<span class="w"> </span>result.txt
+</pre></div>
+</div>
+<p>上面代码中，构建 result.txt 的前置条件是 source.txt
+。如果当前目录中，source.txt
+已经存在，那么<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">result.txt</span></code>可以正常运行，否则必须再写一条规则，来生成
+source.txt 。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>source.txt:
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;this is the source&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>source.txt
+</pre></div>
+</div>
+</section>
+<section id="commands">
+<h2>2.4 命令（commands）<a class="headerlink" href="#commands" title="Permalink to this heading">¶</a></h2>
+<p>命令（commands）表示如何更新目标文件，由一行或多行的Shell命令组成</p>
+<p>需要注意的是，每行命令在一个单独的shell中执行。这些Shell之间没有继承关系。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>var-lost:
+<span class="w">    </span><span class="nb">export</span><span class="w"> </span><span class="nv">foo</span><span class="o">=</span>bar
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;foo=[</span><span class="nv">$$</span><span class="s2">foo]&quot;</span>
+</pre></div>
+</div>
+<p>上面代码执行后（<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">var-lost</span></code>），取不到foo的值。因为两行命令在两个不同的进程执行。一个解决办法是将两行命令写在一行，中间用分号分隔。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>var-kept:
+<span class="w">    </span><span class="nb">export</span><span class="w"> </span><span class="nv">foo</span><span class="o">=</span>bar<span class="p">;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;foo=[</span><span class="nv">$$</span><span class="s2">foo]&quot;</span>
+</pre></div>
+</div>
+<p>另一个解决办法是在换行符前加反斜杠转义。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>var-kept:
+<span class="w">    </span><span class="nb">export</span><span class="w"> </span><span class="nv">foo</span><span class="o">=</span>bar<span class="p">;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;foo=[</span><span class="nv">$$</span><span class="s2">foo]&quot;</span>
+</pre></div>
+</div>
+<p>最后一个方法是加上<code class="docutils literal notranslate"><span class="pre">.ONESHELL:</span></code>命令。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>.ONESHELL:
+var-kept:
+<span class="w">    </span><span class="nb">export</span><span class="w"> </span><span class="nv">foo</span><span class="o">=</span>bar<span class="p">;</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;foo=[</span><span class="nv">$$</span><span class="s2">foo]&quot;</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="makefile">
+<h1>三、Makefile文件的语法<a class="headerlink" href="#makefile" title="Permalink to this heading">¶</a></h1>
+<section id="echoing">
+<h2>3.2 回声（echoing）<a class="headerlink" href="#echoing" title="Permalink to this heading">¶</a></h2>
+<p>正常情况下，make会打印每条命令，然后再执行，这就叫做回声（echoing）</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>test:
+<span class="w">    </span><span class="c1"># 这是测试</span>
+</pre></div>
+</div>
+<p>在命令的前面加上&#64;，就可以关闭回声。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>test:
+<span class="w">    </span>@#<span class="w"> </span>这是测试
+</pre></div>
+</div>
+</section>
+<section id="id1">
+<h2>3.4 模式匹配<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<p>Make命令允许对文件名，进行类似正则运算的匹配，主要用到的匹配符是%。比如，假定当前目录下有
+f1.c 和 f2.c 两个源码文件，需要将它们编译为对应的对象文件。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>%.o:<span class="w"> </span>%.c
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h2>3.5 变量和赋值符<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<p>Makefile 允许使用等号自定义变量。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">txt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Hello<span class="w"> </span>World
+test:
+<span class="w">    </span>@echo<span class="w"> </span><span class="k">$(</span>txt<span class="k">)</span>
+</pre></div>
+</div>
+<p>上面代码中，变量 txt 等于 Hello World。调用时，变量需要放在 $( ) 之中。</p>
+<p>调用Shell变量，需要在美元符号前，再加一个美元符号，这是因为Make命令会对美元符号转义。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>test:
+<span class="w">    </span>@echo<span class="w"> </span><span class="nv">$$</span>HOME
+</pre></div>
+</div>
+</section>
+<section id="implicit-variables">
+<h2>3.6 内置变量（Implicit Variables）<a class="headerlink" href="#implicit-variables" title="Permalink to this heading">¶</a></h2>
+<p>Make命令提供一系列内置变量，比如，<span class="math notranslate nohighlight">\((CC) 指向当前使用的编译器，\)</span>(MAKE)
+指向当前使用的Make工具。这主要是为了跨平台的兼容性</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>output:
+<span class="w">    </span><span class="k">$(</span>CC<span class="k">)</span><span class="w"> </span>-o<span class="w"> </span>output<span class="w"> </span>input.c
+</pre></div>
+</div>
+</section>
+<section id="automatic-variables">
+<h2>3.7 自动变量（Automatic Variables）<a class="headerlink" href="#automatic-variables" title="Permalink to this heading">¶</a></h2>
+<p>Make命令还提供一些自动变量，它们的值与当前规则有关。主要有以下几个。
+#### 1. $&#64;</p>
+<p><code class="docutils literal notranslate"><span class="pre">$&#64;</span></code> 指代当前目标，就是Make命令当前构建的那个目标。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>a.txt<span class="w"> </span>b.txt:
+<span class="w">    </span>touch<span class="w"> </span><span class="nv">$@</span>
+</pre></div>
+</div>
+<p>等同于下面的写法。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>a.txt:
+<span class="w">    </span>touch<span class="w"> </span>a.txt
+b.txt:
+<span class="w">    </span>touch<span class="w"> </span>b.txt
+</pre></div>
+</div>
+<section id="id3">
+<h3>2. $&lt;<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">$&lt;</span></code> 指代第一个前置条件。比如，规则为 t: p1 p2，那么<code class="docutils literal notranslate"><span class="pre">$&lt;</span></code>
+就指代p1。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>a.txt:<span class="w"> </span>b.txt<span class="w"> </span>c.txt
+<span class="w">    </span>cp<span class="w"> </span>$&lt;<span class="w"> </span><span class="nv">$@</span>
+</pre></div>
+</div>
+<p>等同于下面的写法。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>a.txt:<span class="w"> </span>b.txt<span class="w"> </span>c.txt
+<span class="w">    </span>cp<span class="w"> </span>b.txt<span class="w"> </span>a.txt
+</pre></div>
+</div>
+<p><strong>（3）$?</strong></p>
+<p><span class="math notranslate nohighlight">\(? 指代比目标更新的所有前置条件，之间以空格分隔。比如，规则为 t: p1 p2，其中 p2 的时间戳比 t 新，\)</span>?就指代p2。</p>
+<p><strong>（4）$^</strong></p>
+<p>$^ 指代所有前置条件，之间以空格分隔。比如，规则为 t: p1 p2，那么 $^
+就指代 p1 p2 。</p>
+<p><strong>（5）$</strong>*</p>
+<p><code class="docutils literal notranslate"><span class="pre">$*</span></code>指代匹配符% 匹配的部分， 比如% 匹配 f1.txt 中的f1 ，$* 就表示
+f1。</p>
+<p><strong>（6）$(&#64;D) 和 $(&#64;F)</strong></p>
+<p>$(&#64;D) 和
+<span class="math notranslate nohighlight">\((&#64;F) 分别指向 `\ &#64; 的目录名和文件名。比如，\ :math:`&#64;是 src/input.c，那么\)</span>(&#64;D)
+的值为 src ，$(&#64;F) 的值为 input.c。</p>
+</section>
+<section id="id4">
+<h3>重点<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nv">objects</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>*.o
+</pre></div>
+</div>
+<p>上面这个例子，表示了通配符同样可以用在变量中。并不是说 <code class="docutils literal notranslate"><span class="pre">*.o</span></code> 会展开，不！objects的值就是 <code class="docutils literal notranslate"><span class="pre">*.o</span></code> 。Makefile中的变量其实就是C/C++中的宏。如果你要让通配符在变量中展开，也就是让objects的值是所有 <code class="docutils literal notranslate"><span class="pre">.o</span></code> 的文件名的集合，那么，你可以这样：</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>objects<span class="w"> </span>:<span class="o">=</span><span class="w"> </span><span class="k">$(</span>wildcard<span class="w"> </span>*.o<span class="k">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">MyFile</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Zhang Zhiyu.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../_sources/Computer/MakefileLearning.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
