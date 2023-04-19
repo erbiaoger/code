@@ -4,6 +4,7 @@ setup.py
 mytools/Timer.py
 mytools/__init__.py
 mytools/plot.py
+mytools/wigb.py
 mytools.egg-info/PKG-INFO
 mytools.egg-info/SOURCES.txt
 mytools.egg-info/dependency_links.txt
