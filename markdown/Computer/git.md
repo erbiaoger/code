@@ -1,9 +1,9 @@
-# <center> Learn Git</center>
-
+# Learn Git
+<!--
 ![git 结构](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202303192139836.jpg)
 
 ![git 工作流程](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202303192139707.png)
-
+-->
 - [ Learn Git](#-learn-git)
   - [基础操作](#基础操作)
     - [创建仓库命令](#创建仓库命令)

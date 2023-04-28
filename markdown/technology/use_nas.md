@@ -42,73 +42,73 @@ Data: 2022年11月9日下午7:39:38
 
 - 在文件夹中输入 `\\192.168.3.26`
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092019100.png)
+  ![1](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092019100.png)
 
 - 输入账户和密码
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092021022.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092021022.png)
 
 - 进入NAS文件夹
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092022010.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092022010.png)
 
 - 可以将`csim_lab`设为快速访问，便于进入该文件夹
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092023199.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092023199.png)
 
 - 在`csim_lab`下创建自己的文件夹
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092024072.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092024072.png)
 
 - 现在就可以自由上传和备份文件了！！！
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092025268.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092025268.png)
 
 ### linux (ubuntu)
 
 - 首先需要连接网络：inter1209 或 inter1209_5G
 - 打开文件夹，找到其他位置，并点击`DS920(文件共享)`
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092038610.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092038610.png)
 
 - 输入用户名和密码，点击连接
 
-  ![截图 2022-11-09 20-41-18](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092048190.png)
+  ![截图 2022-11-09 20-41-18](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092048190.png)
 
 - 进入NAS文件夹
 
-  ![截图 2022-11-09 20-42-33](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092048077.png)
+  ![截图 2022-11-09 20-42-33](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092048077.png)
 
 - 可拖动文件进入文件夹
 
-  ![截图 2022-11-09 20-45-59](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092048590.png)
+  ![截图 2022-11-09 20-45-59](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092048590.png)
 
 - 在终端中打开
 
-  ![截图 2022-11-09 20-54-56](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092055009.png)
+  ![截图 2022-11-09 20-54-56](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092055009.png)
 
 ### Mac
 
 - 首先需要连接网络：inter1209 或 inter1209_5G
 - 打开文件夹，找到位置，并点击`DS920`
 
-  ![image-20221109下午85939724](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092059756.png)
+  ![image-20221109下午85939724](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092059756.png)
 
 - 点击连接身份
 
-  ![image-20221109下午90054209](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092100236.png)
+  ![image-20221109下午90054209](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092100236.png)
 
 - 进入NAS目录
 
-  ![image-20221109下午90113838](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092101866.png)
+  ![image-20221109下午90113838](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092101866.png)
 
 - 进入自己文件夹
 
-  ![image-20221109下午90359857](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092103892.png)
+  ![image-20221109下午90359857](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092103892.png)
 
 - 终端如下
 
- ![image-20221109下午90540647](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211092105673.png)
+ ![image-20221109下午90540647](https://gitee.com/erbiaoger/PicGo/raw/master/img202211092105673.png)
 
 Data: 2022年11月10日上午7:54:16
 
@@ -116,9 +116,9 @@ Data: 2022年11月10日上午7:54:16
 
 - mac, ubuntu, windows 都需下载`Synology Drive Client` 网址：`https://www.synology.cn/zh-cn/support/download/DS920+?version=7.1#utilities`
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100755159.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100755159.png)
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100757227.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100757227.png)
 
 ### windows 
 
@@ -130,53 +130,53 @@ Data: 2022年11月10日上午7:54:16
 
 - 安装`Synology Drive Client`
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100813172.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100813172.png)
 
 - 打开
 
-  ![截图 2022-11-10 08-16-13](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100821430.png)
+  ![截图 2022-11-10 08-16-13](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100821430.png)
 
-  ![截图 2022-11-10 08-16-54](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822172.png)
+  ![截图 2022-11-10 08-16-54](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100822172.png)
 
 - 登陆 Synology NAS 处还可填 `192.168.3.26` 域名应该
 
-  ![截图 2022-11-10 08-17-32](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822657.png)
+  ![截图 2022-11-10 08-17-32](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100822657.png)
 
 - 选择同步或备份任务
 
-  ![截图 2022-11-10 08-17-41](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100822788.png)
+  ![截图 2022-11-10 08-17-41](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100822788.png)
 
-  ![截图 2022-11-10 08-17-59](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823618.png)
+  ![截图 2022-11-10 08-17-59](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100823618.png)
 
 - 设置同步文件夹，NAS端和PC端
 
-  ![截图 2022-11-10 08-19-02](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823793.png)
+  ![截图 2022-11-10 08-19-02](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100823793.png)
 
 - 选择备份模式
 
-  ![截图 2022-11-10 08-19-11](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823819.png)
+  ![截图 2022-11-10 08-19-11](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100823819.png)
 
 - 搞定
 
-  ![截图 2022-11-10 08-19-31](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100823807.png)
+  ![截图 2022-11-10 08-19-31](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100823807.png)
 
 ### Mac
 
 - 双击运行
   
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100759898.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100759898.png)
 
 - 一路下一步
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100802543.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100802543.png)
 
 - 点击`同步任务`或`备份任务`, 点击创建 (由于我已经登陆过，步骤可能稍有不同)
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100807306.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100807306.png)
 
 - 设置同步文件夹，NAS端和PC端
   
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100810352.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100810352.png)
 
 
 ## 外网访问
@@ -187,25 +187,25 @@ Data: 2022年11月10日上午7:54:16
 
 	http://QuickConnect.cn/CSIM-LAB
 
-![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202211242147906.png)
+![](https://gitee.com/erbiaoger/PicGo/raw/master/image/202211242147906.png)
 
 ### 电脑客户端
 
 - mac, ubuntu, windows 都需下载`Synology Drive Client` 网址：`https://www.synology.cn/zh-cn/support/download/DS920+?version=7.1#utilities`
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100755159.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100755159.png)
 
-  ![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/img202211100757227.png)
+  ![](https://gitee.com/erbiaoger/PicGo/raw/master/img202211100757227.png)
 
 - 登陆 (注：`Synology NAS` 处需填 `CSIM-LAB`， 其余与自动备份功能一样)
 
-![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202211242125062.png)
+![](https://gitee.com/erbiaoger/PicGo/raw/master/image/202211242125062.png)
 
 
 
 - 备份完成后可点击下图小球
 
-![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202211242149310.png)
+![](https://gitee.com/erbiaoger/PicGo/raw/master/image/202211242149310.png)
 
 - 可跳转到如下界面
 
@@ -217,7 +217,7 @@ Data: 2022年11月10日上午7:54:16
 
 
 
-![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202211242157720.jpg)
+![](https://gitee.com/erbiaoger/PicGo/raw/master/image/202211242157720.jpg)
 
 - 登陆与其他类似，使用 `CSIM-LAB` 域名登陆
 
@@ -225,4 +225,5 @@ Data: 2022年11月10日上午7:54:16
 
 ## 文件结构
 
-![](https://raw.githubusercontent.com/erbiaoger/PicGo/main/image/202211242221923.png)
+![](https://gitee.com/erbiaoger/PicGo/raw/master/image/202211242221923.png)
+
