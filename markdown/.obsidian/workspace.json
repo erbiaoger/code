@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer/Makefile Learning.md",
+                "file": "BasicConfiguration/在服务器端部署 Jupyter Notebook.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ea7200a2037e494",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "technology/LaTex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f04f06631660e7e",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer/Makefile Learning.md",
+                "file": "technology/LaTex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer/Makefile Learning.md",
+                "file": "technology/LaTex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer/Makefile Learning.md"
+                "file": "technology/LaTex.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +159,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3bf4e6538a253dc2",
+  "active": "0ea7200a2037e494",
   "lastOpenFiles": [
-    "Computer/Makefile Learning.md"
+    "BasicConfiguration/build a new website with wordpress.md",
+    "BasicConfiguration/在服务器端部署 Jupyter Notebook.md",
+    "Computer/MakefileLearning.md",
+    "Computer/mpi.md",
+    "source/基础配置/在服务器端部署 Jupyter Notebook.md",
+    "source/基础配置/zshrc.md",
+    "source/基础配置/vscode + gfortran.md",
+    "source/基础配置/vimrc.md",
+    "source/基础配置/tmux.conf.md",
+    "source/基础配置/ssh_config.md",
+    "source/基础配置/mac软件.md",
+    "source/基础配置/jupyter.md",
+    "source/基础配置/jupyter$$colab.md",
+    "source/基础配置/condarc.md",
+    "source/基础配置",
+    "source/technology/use_nas.md",
+    "source/technology/linux_51.md",
+    "source/technology/hdf5.md",
+    "source/technology/LaTex.md",
+    "source/technology/Gmsh.md",
+    "source/technology",
+    "source/Computer/some_skill.md",
+    "source/Computer/mpi.md",
+    "source/Computer/git.md",
+    "source/Computer/Makefile Learning.md",
+    "source/Computer/Fortran Learning.md",
+    "source/Computer",
+    "build/html/objects.inv",
+    "build/html/searchindex.js",
+    "build/html/_static/custom.css",
+    "build/html/_static/alabaster.css",
+    "build/html/_static/basic.css",
+    "build/html/_static/doctools.js",
+    "build/html/_static/minus.png",
+    "build/doctrees/index.doctree",
+    "build/html/_static/plus.png",
+    "build/html/_static/file.png"
   ]
 }
