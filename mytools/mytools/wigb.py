@@ -2,21 +2,32 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def wigb(a=[],scal=0,x=0,z=0,amx=0):
-#  WIGB: Plot seismic data using wiggles.
-#
-#  WIGB(a,scal,x,z,amx) 
-#
-#  IN  a:     地震数据 (a ndarray, traces are columns)
-#      scale: multiple data by scal
-#      x:     x轴(often offset)
-#      z:     y轴 (often time)
-#
-#  Note
-#
-#    If only 'a' is enter, 'scal,x,z,amn,amx' are set automatically; 
-#    otherwise, 'scal' is a scalar; 'x, z' are vectors for annotation in 
-#    offset and time, amx are the amplitude range.
-#
+    """WIGB: Plot seismic data using wiggles.
+
+    INPUT:
+        a: list   
+            地震数据 (a ndarray, traces are columns)
+        scale: 
+            multiple data by scal
+        x:  
+            x轴(often offset)
+        z:     
+            y轴 (often time)
+        amx:   
+            amplitude range
+
+    OUTPUT:
+        a wiggle plot
+
+    Note:
+        If only 'a' is enter, 'scal,x,z,amn,amx' are set automatically; 
+        otherwise, 'scal' is a scalar; 'x, z' are vectors for annotation in 
+        offset and time, amx are the amplitude range.
+
+    Usage:
+        wigb(a, scal, x, z, amx)
+
+    """
     if a==[]:
         nx, nz = 10, 10
         a = np.random.random((nz,nx))

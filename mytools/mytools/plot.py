@@ -23,6 +23,7 @@ Change Log:
 
 from matplotlib_inline import backend_inline 
 import matplotlib.pyplot as plt
+
 def use_svg_display(): 
     """使用svg格式在Jupyter中显示绘图"""
     backend_inline.set_matplotlib_formats('svg')
@@ -47,7 +48,28 @@ def set_axes(axes, xlabel, ylabel, xlim, ylim, xscale, yscale, legend):
 def plot(X, Y=None, xlabel=None, ylabel=None, legend=None, xlim=None,
          ylim=None, xscale='linear', yscale='linear', 
          fmts=('-', 'm--', 'g-', 'r:'), figsize=(3.5, 2.5), axes=None):
-    """绘制数据点"""
+    """绘制数据点
+    
+    Attributes
+    ----------
+    X, Y : ndarray
+        Vector of frequencies corresponds to each column.
+    xlabel, ylabel : ndarray
+        Vector of frequencies corresponds to each column.
+    legend : list
+        List of strings for the legend.
+    xlim, ylim : ndarray
+        Vector of frequencies corresponds to each column.
+    xscale, yscale : ndarray
+        Vector of frequencies corresponds to each column.
+    fmts : list
+        List of strings for the legend.
+    figsize : ndarray
+        Vector of frequencies corresponds to each column.
+    axes : ndarray
+        Vector of frequencies corresponds to each column.
+    
+    """
     if legend is None:
         legend = []
     
