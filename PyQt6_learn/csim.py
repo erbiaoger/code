@@ -1,0 +1,252 @@
+import numpy as np
+from toolbox import gprIO2A
+import scipy.io as io
+import os
+import copy
+import pickle
+
+
+class MyGPR():
+    def __init__(self):
+        self.data = None
+        self.profilePos = None
+        self.twtt = None
+        self.info = None
+        self.antsep = None
+        self.velocity = None
+        self.depth = None
+        self.maxTopo = None
+        self.minTopo = None
+        self.threeD = None
+        self.data_pretopo = None
+        self.twtt_pretopo = None
+        self.previous = {}
+        self.previous_redo = {}
+        self.history = []
+    
+    def initPrevious(self, previous=None):
+        '''
+        Initialization of data strucure that contains the step 
+        before the most recent action.
+        '''
+        if previous == None:
+            self.previous["data"] = self.data
+            self.previous["twtt"] = self.twtt 
+            self.previous["info"] = self.info
+            self.previous["profilePos"] = self.profilePos
+            self.previous["velocity"] = self.velocity
+            self.previous["depth"] = self.depth
+            self.previous["maxTopo"] = self.maxTopo
+            self.previous["minTopo"] = self.minTopo
+            self.previous["threeD"] = self.threeD
+            self.previous["data_pretopo"] = self.data_pretopo
+            self.previous["twtt_pretopo"] = self.twtt_pretopo
+            histsav = self.history.copy()
+            self.previous["history"] = histsav
+        elif previous == 'undo':
+            self.data = self.previous["data"]
+            self.twtt = self.previous["twtt"]
+            self.info = self.previous["info"]
+            self.profilePos = self.previous["profilePos"]
+            self.velocity = self.previous["velocity"]
+            self.depth = self.previous["depth"]
+            self.maxTopo = self.previous["maxTopo"]
+            self.minTopo = self.previous["minTopo"]
+            self.threeD = self.previous["threeD"]
+            self.data_pretopo = self.previous["data_pretopo"]
+            self.twtt_pretopo = self.previous["twtt_pretopo"]
+            # Make sure to not keep deleting history
+            # when applying undo several times. 
+            histsav = self.previous["history"].copy()
+            del histsav[-1]
+            self.history = histsav
+        elif previous == 'redo_undo':
+            self.previous_redo["data"] = self.data
+            self.previous_redo["twtt"] = self.twtt
+            self.previous_redo["info"] = self.info
+            self.previous_redo["profilePos"] = self.profilePos
+            self.previous_redo["velocity"] = self.velocity
+            self.previous_redo["depth"] = self.depth
+            self.previous_redo["maxTopo"] = self.maxTopo
+            self.previous_redo["minTopo"] = self.minTopo
+            self.previous_redo["threeD"] = self.threeD
+            self.previous_redo["data_pretopo"] = self.data_pretopo
+            self.previous_redo["twtt_pretopo"] = self.twtt_pretopo
+            histsav = self.history.copy()
+            self.previous_redo["history"] = histsav
+        elif previous == 'redo': 
+            self.data = self.previous_redo["data"]
+            self.twtt = self.previous_redo["twtt"]
+            self.info = self.previous_redo["info"]
+            self.profilePos = self.previous_redo["profilePos"]
+            self.velocity = self.previous_redo["velocity"]
+            self.depth = self.previous_redo["depth"]
+            self.maxTopo = self.previous_redo["maxTopo"]
+            self.minTopo = self.previous_redo["minTopo"]
+            self.threeD = self.previous_redo["threeD"]
+            self.data_pretopo = self.previous_redo["data_pretopo"]
+            self.twtt_pretopo = self.previous_redo["twtt_pretopo"]
+            histsav = self.previous_redo["history"].copy()
+            del histsav[-1]
+            self.history = histsav
+
+    def undo(self):
+        '''
+        Undoes the last processing step and removes that step fromt he history.
+        '''
+        self.initPrevious('redo_undo')
+        self.initPrevious('undo')
+
+        print("undo")
+
+    def redo(self):
+        '''
+        Redoes the last processing step and adds that step to the history.
+        '''
+        self.initPrevious('redo')
+        print("redo")
+
+
+    def showHistory(self):
+        '''
+        Prints out processing and visualization history of a data set. 
+        '''
+        for i in range(0,len(self.history)):
+            print(self.history[i])
+
+    def writeHistory(self,outfilename="myhistory.py"):
+        '''
+        Turns the processing and visualization history into a Python script.
+        The full path names are saved in the Python script. You can edit the
+        Python script after saving to remove the full path names.
+
+        INPUT:
+        outfilename        filename for Python script
+        '''
+        with open(outfilename,"w") as outfile:
+            outfile.write("# Automatically generated by GPRPy\nimport gprpy.gprpy as gp\n")
+            for i in range(0,len(self.history)):
+                outfile.write(self.history[i] + "\n")
+
+
+    def importData(self, fname=None):
+        fname, fext = os.path.splitext(fname)
+
+    def importData(self, fname=None):
+        """
+        Import data from file
+
+        Parameters:
+        -----------
+        fname : str
+
+        Returns:
+        --------
+        self.data : array
+            Data from file
+        """
+        fname, fext = os.path.splitext(fname)
+        if fname is not None:
+            if fext == ".mat":
+                self.data = io.loadmat(fname + '.mat')['field'].T
+                self.dx = 0.050000; self.dt = 0.3125
+                self.nx = self.data.shape[1]; self.nt = self.data.shape[0]
+                self.profilePos = np.arange(0, self.nx*self.dx, self.dx)
+                self.twtt = np.arange(0, self.nt*self.dt, self.dt) #np.linspace(0,self.info["rhf_range"],self.info["rh_nsamp"])
+
+                self.info = None
+                self.antsep = 0
+                self.velocity = None
+                self.depth = None
+                self.maxTopo = None
+                self.minTopo = None
+                self.threeD = None
+                self.data_pretopo = None
+                self.twtt_pretopo = None
+                # Initialize previous
+                self.initPrevious()
+                
+                # Put what you did in history
+                histstr = "mygpr.importdata('%s')" %(fname)
+                self.history.append(histstr)
+
+            if fext == ".2A":
+                self.data = gprIO2A.read2A(fname + '.2A')
+                self.dx = 0.50000; self.dt = 0.3125
+                self.nx = self.data.shape[1]; self.nt = self.data.shape[0]
+                self.profilePos = np.arange(0, self.nx*self.dx, self.dx)
+                self.twtt = np.arange(0, self.nt*self.dt, self.dt) 
+
+                self.info = None
+                self.antsep = 0
+                self.velocity = None
+                self.depth = None
+                self.maxTopo = None
+                self.minTopo = None
+                self.threeD = None
+                self.data_pretopo = None
+                self.twtt_pretopo = None
+                # Initialize previous
+                self.initPrevious()
+                
+                # Put what you did in history
+                histstr = "mygpr.importdata('%s')" %(fname)
+                self.history.append(histstr)
+
+            elif fext==".gpr":
+                ## Getting back the objects:
+                with open(fname, 'rb') as f:
+                    (data, info, profilePos, twtt, history, antsep, 
+                     velocity, depth, maxTopo, minTopo, threeD, 
+                     data_pretopo, twtt_pretopo) = pickle.load(f)
+                self.data = data
+                self.info = info
+                self.profilePos = profilePos
+                self.twtt = twtt
+                self.history = history
+                self.antsep = antsep
+                self.velocity = velocity
+                self.depth = depth
+                self.maxTopo = maxTopo
+                self.minTopo = minTopo
+                self.threeD = threeD
+                self.data_pretopo = data_pretopo
+                self.twtt_pretopo = twtt_pretopo
+                
+                # Initialize previous
+                self.initPrevious()
+                
+            else:
+                print("可读取 2A 2B dt1, DT1, hd, HD, DZT, dat, GPRhdr, rad, rd3, rd7, and gpr 文件.", '\n')
+
+        # Add to history string
+        histstr = "mygpr.save('%s')" %(fname)
+        self.history.append(histstr)
+    
+    def saveData(self, fname=None):
+        """
+        Save data to file
+
+        Parameters:
+        -----------
+        fname : str
+
+        Returns:
+        --------
+        self.data : array
+            Data from file
+        """
+        fname, fext = os.path.splitext(fname)
+        if fname is not None:
+            ## Getting back the objects:
+            with open(fname+".gpr", 'wb') as f:
+                pickle.dump([self.data, self.info, self.profilePos, 
+                                self.twtt, self.history, self.antsep, self.velocity, 
+                                self.depth, self.maxTopo, self.minTopo, self.threeD, 
+                                self.data_pretopo, self.twtt_pretopo], f)
+        else:
+            print("可保存 gpr 文件.", '\n')
+
+        # Add to history string
+        histstr = "mygpr.save('%s')" %(fname)
+        self.history.append(histstr)

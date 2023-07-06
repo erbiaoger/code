@@ -1,0 +1,5 @@
+/Users/zhiyuzhang/MyProjects/code/PyQt6_learn/CPP/build/CMakeFiles/forA.dir
+/Users/zhiyuzhang/MyProjects/code/PyQt6_learn/CPP/build/CMakeFiles/main.dir
+/Users/zhiyuzhang/MyProjects/code/PyQt6_learn/CPP/build/CMakeFiles/forB.dir
+/Users/zhiyuzhang/MyProjects/code/PyQt6_learn/CPP/build/CMakeFiles/edit_cache.dir
+/Users/zhiyuzhang/MyProjects/code/PyQt6_learn/CPP/build/CMakeFiles/rebuild_cache.dir
