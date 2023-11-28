@@ -1,0 +1,10 @@
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter1_test.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter2_test.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter3_test.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter4_test.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/edit_cache.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/rebuild_cache.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter1_test_autogen.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter2_test_autogen.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter3_test_autogen.dir
+/home/user/CSIM/zhangzhiyu/code/c++/Eigen/EigenChineseDocument/Eigen/CMakeFiles/chapter4_test_autogen.dir

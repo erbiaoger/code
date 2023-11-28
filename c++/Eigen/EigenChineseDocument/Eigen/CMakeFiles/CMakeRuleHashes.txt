@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+f465e2852cae64a0f84c8f82a516fd04 CMakeFiles/chapter1_test_autogen
+2eed79a75be5e93b564e792ac90f685a CMakeFiles/chapter2_test_autogen
+9682f24648aba24c257ab1ec695e086a CMakeFiles/chapter3_test_autogen
+f9c1adfc7de1d290c0a13e0ecc5948ab CMakeFiles/chapter4_test_autogen

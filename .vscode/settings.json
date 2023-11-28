@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.f90": "fortran-modern",
+        "iostream": "cpp",
+        "random": "cpp",
+        "dense": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/user/CSIM/zhangzhiyu/code/c++/Eigen"
+}

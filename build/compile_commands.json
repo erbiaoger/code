@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/user/CSIM/zhangzhiyu/code/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3 -g -o CMakeFiles/hello_Eigen.dir/hello_Eigen.cpp.o -c /home/user/CSIM/zhangzhiyu/code/c++/Eigen/hello_Eigen.cpp",
+  "file": "/home/user/CSIM/zhangzhiyu/code/c++/Eigen/hello_Eigen.cpp",
+  "output": "CMakeFiles/hello_Eigen.dir/hello_Eigen.cpp.o"
+},
+{
+  "directory": "/home/user/CSIM/zhangzhiyu/code/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3 -g -o CMakeFiles/Matrices_Vectors.dir/Matrices_Vectors.cpp.o -c /home/user/CSIM/zhangzhiyu/code/c++/Eigen/Matrices_Vectors.cpp",
+  "file": "/home/user/CSIM/zhangzhiyu/code/c++/Eigen/Matrices_Vectors.cpp",
+  "output": "CMakeFiles/Matrices_Vectors.dir/Matrices_Vectors.cpp.o"
+},
+{
+  "directory": "/home/user/CSIM/zhangzhiyu/code/build",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3 -g -o CMakeFiles/comma-initializer.dir/comma-initializer.cpp.o -c /home/user/CSIM/zhangzhiyu/code/c++/Eigen/comma-initializer.cpp",
+  "file": "/home/user/CSIM/zhangzhiyu/code/c++/Eigen/comma-initializer.cpp",
+  "output": "CMakeFiles/comma-initializer.dir/comma-initializer.cpp.o"
+}
+]

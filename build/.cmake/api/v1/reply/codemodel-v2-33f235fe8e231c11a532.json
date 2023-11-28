@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Demo1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Matrices_Vectors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Matrices_Vectors-Debug-d950cb583e6d08e73b92.json",
+					"name" : "Matrices_Vectors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comma-initializer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comma-initializer-Debug-a7e50d32899cf1737339.json",
+					"name" : "comma-initializer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_Eigen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_Eigen-Debug-090fdf74e5f696b0f521.json",
+					"name" : "hello_Eigen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/CSIM/zhangzhiyu/code/build",
+		"source" : "/home/user/CSIM/zhangzhiyu/code/c++/Eigen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
